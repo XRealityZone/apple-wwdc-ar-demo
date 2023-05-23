@@ -334,7 +334,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.ARDepthDataExample${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -359,7 +359,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.ARDepthDataExample${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
