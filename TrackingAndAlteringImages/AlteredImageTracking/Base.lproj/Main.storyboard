@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="StyleTransfer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RLh-bf-1c3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E6c-py-dvH" customClass="ARSCNView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </sceneKitView>
+                            <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="100" translatesAutoresizingMaskIntoConstraints="NO" id="9e0-zv-RiN" userLabel="Message Panel">
+                                <rect key="frame" x="15" y="35" width="20" height="20"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="AVp-TR-4Nw">
+                                    <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R4B-nn-Jhq">
+                                            <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="CFm-yP-zdd">
+                                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="GT6-ZJ-can">
+                                                        <rect key="frame" x="10" y="10" width="0.0" height="0.0"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mqz-65-rAs" userLabel="Messages label">
+                                                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                                                <nil key="textColor"/>
+                                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <size key="shadowOffset" width="1" height="1"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="GT6-ZJ-can" secondAttribute="trailing" constant="10" id="Hg8-2d-xn4"/>
+                                                    <constraint firstItem="GT6-ZJ-can" firstAttribute="top" secondItem="CFm-yP-zdd" secondAttribute="top" constant="10" id="Rgc-bI-Xie"/>
+                                                    <constraint firstAttribute="bottom" secondItem="GT6-ZJ-can" secondAttribute="bottom" constant="10" id="XdH-eE-lNg"/>
+                                                    <constraint firstItem="GT6-ZJ-can" firstAttribute="leading" secondItem="CFm-yP-zdd" secondAttribute="leading" constant="10" id="vm5-bg-tpl"/>
+                                                </constraints>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="extraLight"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="R4B-nn-Jhq" firstAttribute="centerY" secondItem="9e0-zv-RiN" secondAttribute="centerY" id="B55-mA-i5m"/>
+                                    <constraint firstItem="R4B-nn-Jhq" firstAttribute="width" secondItem="9e0-zv-RiN" secondAttribute="width" id="Nvv-fJ-kP3"/>
+                                    <constraint firstItem="R4B-nn-Jhq" firstAttribute="centerX" secondItem="9e0-zv-RiN" secondAttribute="centerX" id="Pq5-kq-i4J"/>
+                                    <constraint firstItem="R4B-nn-Jhq" firstAttribute="height" secondItem="9e0-zv-RiN" secondAttribute="height" id="amn-Sv-vLw"/>
+                                </constraints>
+                                <blurEffect style="light"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="E6c-py-dvH" secondAttribute="bottom" id="6h6-BI-mhL"/>
+                            <constraint firstItem="E6c-py-dvH" firstAttribute="top" secondItem="RLh-bf-1c3" secondAttribute="top" id="7gH-DS-Crg"/>
+                            <constraint firstItem="E6c-py-dvH" firstAttribute="leading" secondItem="PvN-q5-0Ao" secondAttribute="leading" id="8nh-ZQ-AuM"/>
+                            <constraint firstItem="9e0-zv-RiN" firstAttribute="top" secondItem="PvN-q5-0Ao" secondAttribute="top" constant="15" id="cQJ-u9-wJ6"/>
+                            <constraint firstItem="9e0-zv-RiN" firstAttribute="leading" secondItem="E6c-py-dvH" secondAttribute="leading" constant="15" id="keQ-vs-rof"/>
+                            <constraint firstItem="PvN-q5-0Ao" firstAttribute="trailing" secondItem="E6c-py-dvH" secondAttribute="trailing" id="lHd-lf-g1u"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PvN-q5-0Ao"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="keY-lF-tGf" appends="YES" id="wvy-jF-lxu"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="Mqz-65-rAs" id="G3a-qn-5g9"/>
+                        <outlet property="messagePanel" destination="9e0-zv-RiN" id="pKf-hp-Dvx"/>
+                        <outlet property="sceneView" destination="E6c-py-dvH" id="Gr4-Uw-Z4A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="keY-lF-tGf">
+                    <connections>
+                        <action selector="didTap:" destination="BV1-FR-VrT" id="mYE-6g-cop"/>
+                        <outlet property="delegate" destination="BV1-FR-VrT" id="fdA-m1-dUE"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="56.799999999999997" y="98.50074962518741"/>
+        </scene>
+    </scenes>
+</document>

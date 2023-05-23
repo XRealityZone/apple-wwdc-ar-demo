@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ARKitVersion</key>
+	<string>ARKit-167.2</string>
+	<key>PubSubVersion</key>
+	<string>PubSub-134.102</string>
+	<key>REKitVersion</key>
+	<string>REKit-31.340.0.2</string>
+	<key>XcodeVersion</key>
+	<string>11.4</string>
+	<key>DeveloperBuildNumber</key>
+	<integer>1</integer>
+</dict>
+</plist>

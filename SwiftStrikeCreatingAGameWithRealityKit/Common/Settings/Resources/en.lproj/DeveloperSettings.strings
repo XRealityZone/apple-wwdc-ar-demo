@@ -1,0 +1,66 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+Developer Setting Strings
+*/
+
+/* Class = "UILabel"; text = "Manual"; ObjectID = "1mj-Mo-Tsh"; */
+"1mj-Mo-Tsh.text" = "Manual";
+
+/* Class = "UILabel"; text = "Show Network Debug"; ObjectID = "Cfz-s7-f4f"; */
+"Cfz-s7-f4f.text" = "Show Network Debug";
+
+/* Class = "UITableViewSection"; headerTitle = "Board Location"; ObjectID = "CiX-9Z-ABY"; */
+"CiX-9Z-ABY.headerTitle" = "Board Location";
+
+/* Class = "UILabel"; text = "Show Physics Debug"; ObjectID = "KvR-rB-2Z5"; */
+"KvR-rB-2Z5.text" = "Show Physics Debug";
+
+/* Class = "UILabel"; text = "Low End Device"; ObjectID = "LHy-7b-h1R"; */
+"LHy-7b-h1R.text" = "Low End Device";
+
+/* Class = "UILabel"; text = "Person Occlusion"; ObjectID = "OeM-iu-qxo"; */
+"OeM-iu-qxo.text" = "Person Occlusion";
+
+/* Class = "UILabel"; text = "Use Autofocus"; ObjectID = "SMh-LD-8Oi"; */
+"SMh-LD-8Oi.text" = "Use Autofocus";
+
+/* Class = "UILabel"; text = "Tracking State"; ObjectID = "YMG-sn-bKo"; */
+"YMG-sn-bKo.text" = "Tracking State";
+
+/* Class = "UILabel"; text = "AR Debug Display"; ObjectID = "YfA-Kn-9WQ"; */
+"YfA-Kn-9WQ.text" = "AR Debug Display";
+
+/* Class = "UILabel"; text = "Show Settings Button In Game"; ObjectID = "dLX-Ck-2Dl"; */
+"dLX-Ck-2Dl.text" = "Show Settings Button In Game";
+
+/* Class = "UILabel"; text = "Show Wireframe Overlay"; ObjectID = "dfa-Dm-hpt"; */
+"dfa-Dm-hpt.text" = "Show Wireframe Overlay";
+
+/* Class = "UILabel"; text = "Effects Volume"; ObjectID = "gPJ-St-Dye"; */
+"gPJ-St-Dye.text" = "Effects Volume";
+
+/* Class = "UILabel"; text = "Collaborative Mapping"; ObjectID = "j5T-Hk-Nff"; */
+"j5T-Hk-Nff.text" = "Collaborative Mapping";
+
+/* Class = "UILabel"; text = "Disable In-Game UI"; ObjectID = "kPU-eo-dHY"; */
+"kPU-eo-dHY.text" = "Disable In-Game UI";
+
+/* Class = "UILabel"; text = "Show Thermal State"; ObjectID = "lm7-Qr-PL8"; */
+"lm7-Qr-PL8.text" = "Show Thermal State";
+
+/* Class = "UILabel"; text = "Render Stats"; ObjectID = "mFr-jM-rlq"; */
+"mFr-jM-rlq.text" = "Render Stats";
+
+/* Class = "UILabel"; text = "Share World Map"; ObjectID = "muf-Z6-r2N"; */
+"muf-Z6-r2N.text" = "Share World Map";
+
+/* Class = "UITableViewSection"; headerTitle = "Misc"; ObjectID = "onu-pI-ogn"; */
+"onu-pI-ogn.headerTitle" = "Misc";
+
+/* Class = "UITableViewSection"; headerTitle = "UI Settings"; ObjectID = "rsa-I4-Aar"; */
+"rsa-I4-Aar.headerTitle" = "UI Settings";
+
+/* Class = "UILabel"; text = "Show Level of Detail"; ObjectID = "t6r-6R-Hnz"; */
+"t6r-6R-Hnz.text" = "Show Level of Detail";

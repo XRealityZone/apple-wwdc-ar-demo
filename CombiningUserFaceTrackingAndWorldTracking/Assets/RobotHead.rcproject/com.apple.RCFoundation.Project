@@ -1,0 +1,1345 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+                {
+                  "__content" : [
+                    {
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "axis" : [
+                                            0,
+                                            1,
+                                            0
+                                          ],
+                                          "direction" : "counterclockwise",
+                                          "duration" : 0.69999998807907104,
+                                          "iterations" : 1,
+                                          "target" : [
+                                            "D65BF69C-FBD5-4BDC-93F7-25D1764F9797"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "spin"
+                                        }
+                                      },
+                                      "identifier" : "67F5DB27-EE1C-4758-A3E5-B50BAED79F4A",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "F5E85FCB-680E-4B3F-8E6C-4A49118CFBA3",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.364705890417099,
+                        0.74117648601531982,
+                        0.69019609689712524,
+                        1
+                      ],
+                      "identifier" : "01F7F64C-ABB7-4E1A-A33F-84A03E7BBFF6",
+                      "isEnabled" : true,
+                      "isLooping" : true,
+                      "isModal" : false,
+                      "name" : "PropellerRotation",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+
+                                },
+                                "name" : "start"
+                              },
+                              "identifier" : "FF76327A-7978-4E90-8597-2BA77406B2BF",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 2
+                },
+                {
+                  "__content" : [
+                    {
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "duration" : 5,
+                                          "isTransformInitKeyPath" : true,
+                                          "linearCoefficient" : 1,
+                                          "location" : [
+                                            0,
+                                            0.019999999552965164,
+                                            0
+                                          ],
+                                          "moveEase" : "easeInOut",
+                                          "orientation" : [
+                                            0,
+                                            -0.13052617013454437,
+                                            0,
+                                            0.99144488573074341
+                                          ],
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "05E8C053-DCCA-4D7A-8FBD-5A1C56161B73"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "arguments" : "local",
+                                          "type" : "transform"
+                                        }
+                                      },
+                                      "identifier" : "4F9D7410-1469-44FC-AAE7-57C752982D6F",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "FF258F8D-7633-4FDA-A60C-BD026B421EAC",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "duration" : 5,
+                                          "isTransformInitKeyPath" : true,
+                                          "linearCoefficient" : 1,
+                                          "location" : [
+                                            0,
+                                            -0.019999999552965164,
+                                            0
+                                          ],
+                                          "moveEase" : "easeInOut",
+                                          "orientation" : [
+                                            0,
+                                            0.13052617013454437,
+                                            0,
+                                            0.99144488573074341
+                                          ],
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "05E8C053-DCCA-4D7A-8FBD-5A1C56161B73"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "arguments" : "local",
+                                          "type" : "transform"
+                                        }
+                                      },
+                                      "identifier" : "4BEFC0AA-FAE3-44F9-A337-B9C80EF8F3A3",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "A6CA5E0C-6F5A-4D11-8B16-4E8A3288E5EC",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.21568627655506134,
+                        0.72549021244049072,
+                        0.80000001192092896,
+                        1
+                      ],
+                      "identifier" : "30736DD5-11BA-4241-BB8A-4C50713567DE",
+                      "isEnabled" : true,
+                      "isLooping" : true,
+                      "isModal" : false,
+                      "name" : "Floating",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+
+                                },
+                                "name" : "start"
+                              },
+                              "identifier" : "E71E30A8-13DF-499D-BEFF-0D74BB6DBA66",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 2
+                },
+                {
+                  "__content" : [
+                    {
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "duration" : 3,
+                                          "isTransformInitKeyPath" : true,
+                                          "linearCoefficient" : 1,
+                                          "location" : [
+                                            0,
+                                            0,
+                                            0
+                                          ],
+                                          "moveEase" : "easeInOut",
+                                          "orientation" : [
+                                            0.087155744433403015,
+                                            0,
+                                            0,
+                                            0.99619472026824951
+                                          ],
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "DAED39A2-767B-40CB-8AC2-3F0CF6EEABD7"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "arguments" : "local",
+                                          "type" : "transform"
+                                        }
+                                      },
+                                      "identifier" : "239C696D-2266-48C0-8659-0E3C14B21BE9",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "4D2718EA-1A15-49CB-AA0C-9E363E83CA0C",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "duration" : 3,
+                                          "isTransformInitKeyPath" : true,
+                                          "linearCoefficient" : 1,
+                                          "location" : [
+                                            0,
+                                            0,
+                                            0
+                                          ],
+                                          "moveEase" : "easeInOut",
+                                          "orientation" : [
+                                            -0.087155744433403015,
+                                            0,
+                                            0,
+                                            0.99619472026824951
+                                          ],
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "DAED39A2-767B-40CB-8AC2-3F0CF6EEABD7"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "arguments" : "local",
+                                          "type" : "transform"
+                                        }
+                                      },
+                                      "identifier" : "572FACE4-C437-46EE-BB8D-69B51F17FA70",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "979A05E4-768C-49A6-B384-69E5253CAB5D",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.49019607901573181,
+                        0.7450980544090271,
+                        0.94901961088180542,
+                        1
+                      ],
+                      "identifier" : "40AEA6AA-BC85-4012-8988-32D9F8466617",
+                      "isEnabled" : true,
+                      "isLooping" : true,
+                      "isModal" : false,
+                      "name" : "Tilting",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+
+                                },
+                                "name" : "start"
+                              },
+                              "identifier" : "EA9B0EF9-D9DF-43D0-A646-9E36530AB7EB",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 2
+                }
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "hasGroundPlane" : true,
+              "identifier" : "C2976043-FBF2-430B-B5B8-859BFBB6B731",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "1E704726-F634-4012-9C28-108C6D77445A" : null,
+                  "57F8012E-9DAF-4AA8-B759-85DFD0810B72" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:3eef57d96e8f97b002b6a297eecd484f\/robotHead.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ]
+                            ],
+                            "children" : {
+                              "robotHead" : {
+                                "overrides" : {
+                                  "arguments" : [
+                                    [
+                                      "includeSceneScaling",
+                                      {
+                                        "typeName" : "Bool",
+                                        "value" : false
+                                      }
+                                    ],
+                                    [
+                                      "subpath",
+                                      {
+                                        "typeName" : "String",
+                                        "value" : "robotHead"
+                                      }
+                                    ],
+                                    [
+                                      "url",
+                                      {
+                                        "typeName" : "String",
+                                        "value" : "model:3eef57d96e8f97b002b6a297eecd484f\/robotHead.usdz"
+                                      }
+                                    ],
+                                    [
+                                      "withDescendants",
+                                      {
+                                        "typeName" : "Bool",
+                                        "value" : false
+                                      }
+                                    ]
+                                  ],
+                                  "children" : {
+                                    "root" : {
+                                      "overrides" : {
+                                        "arguments" : [
+                                          [
+                                            "includeSceneScaling",
+                                            {
+                                              "typeName" : "Bool",
+                                              "value" : false
+                                            }
+                                          ],
+                                          [
+                                            "subpath",
+                                            {
+                                              "typeName" : "String",
+                                              "value" : "robotHead\/root"
+                                            }
+                                          ],
+                                          [
+                                            "url",
+                                            {
+                                              "typeName" : "String",
+                                              "value" : "model:3eef57d96e8f97b002b6a297eecd484f\/robotHead.usdz"
+                                            }
+                                          ],
+                                          [
+                                            "withDescendants",
+                                            {
+                                              "typeName" : "Bool",
+                                              "value" : false
+                                            }
+                                          ]
+                                        ],
+                                        "children" : {
+                                          "eyebrowLeft" : {
+                                            "overrides" : {
+                                              "arguments" : [
+                                                [
+                                                  "includeSceneScaling",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : false
+                                                  }
+                                                ],
+                                                [
+                                                  "subpath",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "robotHead\/root\/eyebrowLeft"
+                                                  }
+                                                ],
+                                                [
+                                                  "url",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "model:3eef57d96e8f97b002b6a297eecd484f\/robotHead.usdz"
+                                                  }
+                                                ],
+                                                [
+                                                  "withDescendants",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : true
+                                                  }
+                                                ]
+                                              ],
+                                              "factory" : {
+                                                "identifier" : "com.apple.af.FileImportAssetFactory",
+                                                "version" : "0.0"
+                                              },
+                                              "runtimeAttributes" : [
+                                                [
+                                                  "RuntimeIdentifier",
+                                                  {
+                                                    "typeName" : "UUID",
+                                                    "value" : "4639FBA6-9957-40D7-BABF-9D3E0D2A4BB8"
+                                                  }
+                                                ]
+                                              ]
+                                            },
+                                            "transform" : {
+                                              "matrix" : [
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1,
+                                                0,
+                                                0.05000000074505806,
+                                                0.10999999940395355,
+                                                0.15000000596046448,
+                                                1
+                                              ]
+                                            }
+                                          },
+                                          "eyebrowRight" : {
+                                            "overrides" : {
+                                              "arguments" : [
+                                                [
+                                                  "includeSceneScaling",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : false
+                                                  }
+                                                ],
+                                                [
+                                                  "subpath",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "robotHead\/root\/eyebrowRight"
+                                                  }
+                                                ],
+                                                [
+                                                  "url",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "model:3eef57d96e8f97b002b6a297eecd484f\/robotHead.usdz"
+                                                  }
+                                                ],
+                                                [
+                                                  "withDescendants",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : true
+                                                  }
+                                                ]
+                                              ],
+                                              "factory" : {
+                                                "identifier" : "com.apple.af.FileImportAssetFactory",
+                                                "version" : "0.0"
+                                              },
+                                              "runtimeAttributes" : [
+                                                [
+                                                  "RuntimeIdentifier",
+                                                  {
+                                                    "typeName" : "UUID",
+                                                    "value" : "BB461016-AA08-4531-9D13-19B3951191F7"
+                                                  }
+                                                ]
+                                              ]
+                                            },
+                                            "transform" : {
+                                              "matrix" : [
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1,
+                                                0,
+                                                -0.05000000074505806,
+                                                0.10999999940395355,
+                                                0.15000000596046448,
+                                                1
+                                              ]
+                                            }
+                                          },
+                                          "eyeLeft" : {
+                                            "overrides" : {
+                                              "arguments" : [
+                                                [
+                                                  "includeSceneScaling",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : false
+                                                  }
+                                                ],
+                                                [
+                                                  "subpath",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "robotHead\/root\/eyeLeft"
+                                                  }
+                                                ],
+                                                [
+                                                  "url",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "model:3eef57d96e8f97b002b6a297eecd484f\/robotHead.usdz"
+                                                  }
+                                                ],
+                                                [
+                                                  "withDescendants",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : true
+                                                  }
+                                                ]
+                                              ],
+                                              "factory" : {
+                                                "identifier" : "com.apple.af.FileImportAssetFactory",
+                                                "version" : "0.0"
+                                              },
+                                              "runtimeAttributes" : [
+                                                [
+                                                  "RuntimeIdentifier",
+                                                  {
+                                                    "typeName" : "UUID",
+                                                    "value" : "0219CB49-E0EC-4984-89C8-B92C4F970510"
+                                                  }
+                                                ]
+                                              ]
+                                            },
+                                            "transform" : {
+                                              "matrix" : [
+                                                0.99999994039535522,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1.7881390590446244e-07,
+                                                0.99999970197677612,
+                                                0,
+                                                0,
+                                                -0.99999970197677612,
+                                                1.7881390590446244e-07,
+                                                0,
+                                                0.049999997019767761,
+                                                0.049999997019767761,
+                                                0.14999999105930328,
+                                                1
+                                              ]
+                                            }
+                                          },
+                                          "eyeRight" : {
+                                            "overrides" : {
+                                              "arguments" : [
+                                                [
+                                                  "includeSceneScaling",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : false
+                                                  }
+                                                ],
+                                                [
+                                                  "subpath",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "robotHead\/root\/eyeRight"
+                                                  }
+                                                ],
+                                                [
+                                                  "url",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "model:3eef57d96e8f97b002b6a297eecd484f\/robotHead.usdz"
+                                                  }
+                                                ],
+                                                [
+                                                  "withDescendants",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : true
+                                                  }
+                                                ]
+                                              ],
+                                              "factory" : {
+                                                "identifier" : "com.apple.af.FileImportAssetFactory",
+                                                "version" : "0.0"
+                                              },
+                                              "runtimeAttributes" : [
+                                                [
+                                                  "RuntimeIdentifier",
+                                                  {
+                                                    "typeName" : "UUID",
+                                                    "value" : "8729CEA9-C182-48C5-8498-C46D912D5F74"
+                                                  }
+                                                ]
+                                              ]
+                                            },
+                                            "transform" : {
+                                              "matrix" : [
+                                                0.99999994039535522,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1.7881390590446244e-07,
+                                                0.99999970197677612,
+                                                0,
+                                                0,
+                                                -0.99999970197677612,
+                                                1.7881390590446244e-07,
+                                                0,
+                                                -0.049999997019767761,
+                                                0.049999997019767761,
+                                                0.14999999105930328,
+                                                1
+                                              ]
+                                            }
+                                          },
+                                          "head" : {
+                                            "overrides" : {
+                                              "arguments" : [
+                                                [
+                                                  "includeSceneScaling",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : false
+                                                  }
+                                                ],
+                                                [
+                                                  "subpath",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "robotHead\/root\/head"
+                                                  }
+                                                ],
+                                                [
+                                                  "url",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "model:3eef57d96e8f97b002b6a297eecd484f\/robotHead.usdz"
+                                                  }
+                                                ],
+                                                [
+                                                  "withDescendants",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : true
+                                                  }
+                                                ]
+                                              ],
+                                              "factory" : {
+                                                "identifier" : "com.apple.af.FileImportAssetFactory",
+                                                "version" : "0.0"
+                                              },
+                                              "runtimeAttributes" : [
+                                                [
+                                                  "RuntimeIdentifier",
+                                                  {
+                                                    "typeName" : "UUID",
+                                                    "value" : "54C6AE44-87CA-4A20-AAD4-921714322F7B"
+                                                  }
+                                                ]
+                                              ]
+                                            },
+                                            "transform" : {
+                                              "matrix" : [
+                                                0.99999994039535522,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                0.99999994039535522,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                0.99999994039535522,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1
+                                              ]
+                                            }
+                                          },
+                                          "jaw" : {
+                                            "overrides" : {
+                                              "arguments" : [
+                                                [
+                                                  "includeSceneScaling",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : false
+                                                  }
+                                                ],
+                                                [
+                                                  "subpath",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "robotHead\/root\/jaw"
+                                                  }
+                                                ],
+                                                [
+                                                  "url",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "model:3eef57d96e8f97b002b6a297eecd484f\/robotHead.usdz"
+                                                  }
+                                                ],
+                                                [
+                                                  "withDescendants",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : true
+                                                  }
+                                                ]
+                                              ],
+                                              "factory" : {
+                                                "identifier" : "com.apple.af.FileImportAssetFactory",
+                                                "version" : "0.0"
+                                              },
+                                              "runtimeAttributes" : [
+                                                [
+                                                  "RuntimeIdentifier",
+                                                  {
+                                                    "typeName" : "UUID",
+                                                    "value" : "AB7C9447-FF05-4F29-BD8E-A745C268ACCA"
+                                                  }
+                                                ]
+                                              ]
+                                            },
+                                            "transform" : {
+                                              "matrix" : [
+                                                0.99999994039535522,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                0.99999994039535522,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                0.99999994039535522,
+                                                0,
+                                                0,
+                                                -0.10029435157775879,
+                                                0.1249999925494194,
+                                                1
+                                              ]
+                                            }
+                                          },
+                                          "mouth" : {
+                                            "overrides" : {
+                                              "arguments" : [
+                                                [
+                                                  "includeSceneScaling",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : false
+                                                  }
+                                                ],
+                                                [
+                                                  "subpath",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "robotHead\/root\/mouth"
+                                                  }
+                                                ],
+                                                [
+                                                  "url",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "model:3eef57d96e8f97b002b6a297eecd484f\/robotHead.usdz"
+                                                  }
+                                                ],
+                                                [
+                                                  "withDescendants",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : true
+                                                  }
+                                                ]
+                                              ],
+                                              "factory" : {
+                                                "identifier" : "com.apple.af.FileImportAssetFactory",
+                                                "version" : "0.0"
+                                              },
+                                              "runtimeAttributes" : [
+                                                [
+                                                  "RuntimeIdentifier",
+                                                  {
+                                                    "typeName" : "UUID",
+                                                    "value" : "B6DBD5E1-4B64-4274-B07B-7148CB80F037"
+                                                  }
+                                                ]
+                                              ]
+                                            },
+                                            "transform" : {
+                                              "matrix" : [
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1,
+                                                0,
+                                                0,
+                                                -0.085000000894069672,
+                                                0.13000085949897766,
+                                                1
+                                              ]
+                                            }
+                                          },
+                                          "propeller" : {
+                                            "overrides" : {
+                                              "arguments" : [
+                                                [
+                                                  "includeSceneScaling",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : false
+                                                  }
+                                                ],
+                                                [
+                                                  "subpath",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "robotHead\/root\/propeller"
+                                                  }
+                                                ],
+                                                [
+                                                  "url",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "model:3eef57d96e8f97b002b6a297eecd484f\/robotHead.usdz"
+                                                  }
+                                                ],
+                                                [
+                                                  "withDescendants",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : true
+                                                  }
+                                                ]
+                                              ],
+                                              "factory" : {
+                                                "identifier" : "com.apple.af.FileImportAssetFactory",
+                                                "version" : "0.0"
+                                              },
+                                              "runtimeAttributes" : [
+                                                [
+                                                  "RuntimeIdentifier",
+                                                  {
+                                                    "typeName" : "UUID",
+                                                    "value" : "D65BF69C-FBD5-4BDC-93F7-25D1764F9797"
+                                                  }
+                                                ]
+                                              ]
+                                            },
+                                            "transform" : {
+                                              "matrix" : [
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1
+                                              ]
+                                            }
+                                          },
+                                          "tongue" : {
+                                            "overrides" : {
+                                              "arguments" : [
+                                                [
+                                                  "includeSceneScaling",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : false
+                                                  }
+                                                ],
+                                                [
+                                                  "subpath",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "robotHead\/root\/tongue"
+                                                  }
+                                                ],
+                                                [
+                                                  "url",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "model:3eef57d96e8f97b002b6a297eecd484f\/robotHead.usdz"
+                                                  }
+                                                ],
+                                                [
+                                                  "withDescendants",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : true
+                                                  }
+                                                ]
+                                              ],
+                                              "factory" : {
+                                                "identifier" : "com.apple.af.FileImportAssetFactory",
+                                                "version" : "0.0"
+                                              },
+                                              "runtimeAttributes" : [
+                                                [
+                                                  "RuntimeIdentifier",
+                                                  {
+                                                    "typeName" : "UUID",
+                                                    "value" : "4D70D62C-47A0-48B5-8328-B3CE61103367"
+                                                  }
+                                                ]
+                                              ]
+                                            },
+                                            "transform" : {
+                                              "matrix" : [
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1,
+                                                0,
+                                                0,
+                                                -0.10000000149011612,
+                                                0,
+                                                1
+                                              ]
+                                            }
+                                          },
+                                          "upperLip" : {
+                                            "overrides" : {
+                                              "arguments" : [
+                                                [
+                                                  "includeSceneScaling",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : false
+                                                  }
+                                                ],
+                                                [
+                                                  "subpath",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "robotHead\/root\/upperLip"
+                                                  }
+                                                ],
+                                                [
+                                                  "url",
+                                                  {
+                                                    "typeName" : "String",
+                                                    "value" : "model:3eef57d96e8f97b002b6a297eecd484f\/robotHead.usdz"
+                                                  }
+                                                ],
+                                                [
+                                                  "withDescendants",
+                                                  {
+                                                    "typeName" : "Bool",
+                                                    "value" : true
+                                                  }
+                                                ]
+                                              ],
+                                              "factory" : {
+                                                "identifier" : "com.apple.af.FileImportAssetFactory",
+                                                "version" : "0.0"
+                                              },
+                                              "runtimeAttributes" : [
+                                                [
+                                                  "RuntimeIdentifier",
+                                                  {
+                                                    "typeName" : "UUID",
+                                                    "value" : "77C049AB-BEE6-4DF9-9069-6D89843B6632"
+                                                  }
+                                                ]
+                                              ]
+                                            },
+                                            "transform" : {
+                                              "matrix" : [
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1,
+                                                0,
+                                                0,
+                                                -0.055349837988615036,
+                                                0.125,
+                                                1
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        "factory" : {
+                                          "identifier" : "com.apple.af.FileImportAssetFactory",
+                                          "version" : "0.0"
+                                        },
+                                        "runtimeAttributes" : [
+                                          [
+                                            "RuntimeIdentifier",
+                                            {
+                                              "typeName" : "UUID",
+                                              "value" : "1745E4B6-11CE-4591-84E6-D7192C11EB19"
+                                            }
+                                          ]
+                                        ]
+                                      },
+                                      "transform" : {
+                                        "matrix" : [
+                                          0.20000000298023224,
+                                          -3.0746921675373073e-10,
+                                          1.5063811309445896e-09,
+                                          0,
+                                          4.3758893730760917e-10,
+                                          0.19923894107341766,
+                                          -0.017431147396564484,
+                                          0,
+                                          -1.4738511522338626e-09,
+                                          0.017431147396564484,
+                                          0.19923894107341766,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          1
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  "factory" : {
+                                    "identifier" : "com.apple.af.FileImportAssetFactory",
+                                    "version" : "0.0"
+                                  },
+                                  "runtimeAttributes" : [
+                                    [
+                                      "RuntimeIdentifier",
+                                      {
+                                        "typeName" : "UUID",
+                                        "value" : "DAED39A2-767B-40CB-8AC2-3F0CF6EEABD7"
+                                      }
+                                    ]
+                                  ]
+                                },
+                                "transform" : {
+                                  "matrix" : [
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                }
+                              }
+                            },
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "02C8098B-7563-4F65-AD7C-14C360DCD53E"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "05E8C053-DCCA-4D7A-8FBD-5A1C56161B73"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1.9828900098800659,
+                        0,
+                        -0.26105239987373352,
+                        0,
+                        0,
+                        2.0000002384185791,
+                        0,
+                        0,
+                        0.26105239987373352,
+                        0,
+                        1.9828900098800659,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  "B58117C4-0CE3-4E28-9EB4-D799F14166C5" : null,
+                  "Cube" : null,
+                  "Plate" : null
+                },
+                "factory" : null
+              },
+              "title" : "Scene",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.97341322898864746,
+                  0,
+                  -0.22905611991882324,
+                  0,
+                  -0.052807122468948364,
+                  0.97306233644485474,
+                  -0.22441257536411285,
+                  0,
+                  0.22288595139980316,
+                  0.23054203391075134,
+                  0.94719171524047852,
+                  0,
+                  0.088540531694889069,
+                  0.034628812223672867,
+                  0.31036067008972168,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 4
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}

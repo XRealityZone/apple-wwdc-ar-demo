@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14810.11" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.13"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ARView-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="ARView" customClass="ViewController" customModule="SwiftStrikeTabletop" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="ARView" customClass="ARView" customModule="RealityKit">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FWr-7F-gKY" customClass="GameActionButton" customModule="SwiftStrikeTabletop" customModuleProvider="target">
+                                <rect key="frame" x="131" y="448" width="338" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="338" id="Ocm-CK-gk7"/>
+                                    <constraint firstAttribute="height" constant="128" id="Z1T-5d-H1N"/>
+                                </constraints>
+                                <state key="normal" image="TapToPlay">
+                                    <color key="titleColor" xcode11CocoaTouchSystemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="gameActionButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jhH-F7-iv6"/>
+                                </connections>
+                            </button>
+                            <view hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JN0-Ac-yk1" customClass="OverlayView" customModule="SwiftStrikeTabletop" customModuleProvider="target">
+                                <rect key="frame" x="137" y="236" width="326" height="128"/>
+                                <subviews>
+                                    <view opaque="NO" alpha="0.25" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ejv-QO-dNI">
+                                        <rect key="frame" x="0.0" y="0.0" width="326" height="128"/>
+                                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
+                                    <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Level1" translatesAutoresizingMaskIntoConstraints="NO" id="yTI-SZ-nnW">
+                                        <rect key="frame" x="0.0" y="0.0" width="326" height="128"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="ejv-QO-dNI" firstAttribute="leading" secondItem="JN0-Ac-yk1" secondAttribute="leading" id="0uO-AC-Rft"/>
+                                    <constraint firstAttribute="trailing" secondItem="yTI-SZ-nnW" secondAttribute="trailing" id="59d-s7-tLj"/>
+                                    <constraint firstAttribute="trailing" secondItem="ejv-QO-dNI" secondAttribute="trailing" id="LUV-oL-6yw"/>
+                                    <constraint firstAttribute="bottom" secondItem="ejv-QO-dNI" secondAttribute="bottom" id="Tol-mL-Zcz"/>
+                                    <constraint firstItem="yTI-SZ-nnW" firstAttribute="leading" secondItem="JN0-Ac-yk1" secondAttribute="leading" id="h9H-eK-FOO"/>
+                                    <constraint firstAttribute="width" constant="326" id="jbH-Pr-snZ"/>
+                                    <constraint firstItem="yTI-SZ-nnW" firstAttribute="top" secondItem="JN0-Ac-yk1" secondAttribute="top" id="lfk-bq-O79"/>
+                                    <constraint firstAttribute="height" constant="128" id="sqJ-S2-LgH"/>
+                                    <constraint firstAttribute="bottom" secondItem="yTI-SZ-nnW" secondAttribute="bottom" id="vxV-0z-gWN"/>
+                                    <constraint firstItem="ejv-QO-dNI" firstAttribute="top" secondItem="JN0-Ac-yk1" secondAttribute="top" id="xQt-23-ItY"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imageView" destination="yTI-SZ-nnW" id="beL-TI-9g2"/>
+                                </connections>
+                            </view>
+                            <imageView hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhone-menu.png" translatesAutoresizingMaskIntoConstraints="NO" id="6vR-gG-Cwn">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <variation key="heightClass=regular-widthClass=regular" image="iPad-menu.png"/>
+                            </imageView>
+                            <view opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WcU-RA-K7q" customClass="ARCoachingOverlayView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FWr-7F-gKY" secondAttribute="bottom" constant="24" id="0Ec-Tg-KVb"/>
+                            <constraint firstAttribute="bottom" secondItem="6vR-gG-Cwn" secondAttribute="bottom" id="0MZ-yN-qm8"/>
+                            <constraint firstItem="6vR-gG-Cwn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8I6-7M-XpS"/>
+                            <constraint firstItem="JN0-Ac-yk1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IB3-f1-5eL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WcU-RA-K7q" secondAttribute="trailing" id="aNg-nu-yQr"/>
+                            <constraint firstItem="WcU-RA-K7q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bGV-OW-NGV"/>
+                            <constraint firstAttribute="trailing" secondItem="6vR-gG-Cwn" secondAttribute="trailing" id="eXI-9S-9Ke"/>
+                            <constraint firstItem="JN0-Ac-yk1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gK4-Nw-1W4"/>
+                            <constraint firstAttribute="bottom" secondItem="WcU-RA-K7q" secondAttribute="bottom" id="iat-kA-bJu"/>
+                            <constraint firstItem="WcU-RA-K7q" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="kqn-Dr-Xwh"/>
+                            <constraint firstItem="FWr-7F-gKY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uzf-pW-9E9"/>
+                            <constraint firstItem="6vR-gG-Cwn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zV5-A0-gb5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="arView" destination="8bC-Xf-vdC" id="TPV-4x-avp"/>
+                        <outlet property="coachingOverlay" destination="WcU-RA-K7q" id="mdA-mA-YKV"/>
+                        <outlet property="gameActionButton" destination="FWr-7F-gKY" id="i5h-Dj-y3N"/>
+                        <outlet property="menuImageView" destination="6vR-gG-Cwn" id="Nh0-Wr-hcW"/>
+                        <outlet property="overlayView" destination="JN0-Ac-yk1" id="Lae-gO-FMd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="134"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Level1" width="325" height="128"/>
+        <image name="TapToPlay" width="338" height="128"/>
+        <image name="iPad-menu.png" width="2732" height="2048"/>
+        <image name="iPhone-menu.png" width="1080" height="1920"/>
+    </resources>
+</document>

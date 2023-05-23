@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14105" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="ARKitVision" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nvV-1F-zG0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arskView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9C1-uQ-ecX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="f0K-i8-Pgm" appends="YES" id="H61-we-Ael"/>
+                                </connections>
+                            </arskView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KDf-aN-SqQ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="7uF-O1-M35"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="edC-Sl-R4A" kind="embed" id="pjI-W9-3IA"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="B6f-8k-vfK" firstAttribute="trailing" secondItem="9C1-uQ-ecX" secondAttribute="trailing" id="FRK-rs-yMF"/>
+                            <constraint firstItem="KDf-aN-SqQ" firstAttribute="leading" secondItem="B6f-8k-vfK" secondAttribute="leading" id="Xhr-Qw-9Nd"/>
+                            <constraint firstAttribute="bottom" secondItem="9C1-uQ-ecX" secondAttribute="bottom" id="YDs-dv-OTb"/>
+                            <constraint firstItem="B6f-8k-vfK" firstAttribute="trailing" secondItem="KDf-aN-SqQ" secondAttribute="trailing" id="nfZ-3N-fjn"/>
+                            <constraint firstItem="9C1-uQ-ecX" firstAttribute="leading" secondItem="B6f-8k-vfK" secondAttribute="leading" id="tL2-7i-pR4"/>
+                            <constraint firstAttribute="top" secondItem="9C1-uQ-ecX" secondAttribute="top" id="wWJ-9r-hSp"/>
+                            <constraint firstItem="KDf-aN-SqQ" firstAttribute="top" secondItem="B6f-8k-vfK" secondAttribute="top" id="yPf-a2-fC7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="B6f-8k-vfK"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="9C1-uQ-ecX" id="tyF-hd-OH8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="f0K-i8-Pgm">
+                    <connections>
+                        <action selector="placeLabelAtLocationWithSender:" destination="BV1-FR-VrT" id="vPA-Z5-obT"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="-985.45727136431788"/>
+        </scene>
+        <!--Status View Controller-->
+        <scene sceneID="nMy-4X-8W1">
+            <objects>
+                <viewController id="edC-Sl-R4A" customClass="StatusViewController" customModule="ARKitVision" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UgU-S5-mck">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="85"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="100" translatesAutoresizingMaskIntoConstraints="NO" id="nS7-XY-fhy" userLabel="Message Panel">
+                                <rect key="frame" x="16" y="20" width="125" height="49"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="iX5-ew-DwE">
+                                    <rect key="frame" x="0.0" y="0.0" width="125" height="49"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Z2-xi-mqm">
+                                            <rect key="frame" x="0.0" y="0.0" width="125" height="33"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="fyy-w0-Moy">
+                                                <rect key="frame" x="0.0" y="0.0" width="125" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" verticalCompressionResistancePriority="250" text="Tracking status" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="wim-jg-SVN" userLabel="Messages label">
+                                                        <rect key="frame" x="16" y="8" width="93" height="16"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                                        <nil key="textColor"/>
+                                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <size key="shadowOffset" width="1" height="1"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="wim-jg-SVN" firstAttribute="leading" secondItem="fyy-w0-Moy" secondAttribute="leading" constant="16" id="JQF-bL-C7X"/>
+                                                    <constraint firstItem="wim-jg-SVN" firstAttribute="trailing" secondItem="fyy-w0-Moy" secondAttribute="trailing" constant="-16" id="TP8-PP-89c"/>
+                                                    <constraint firstItem="wim-jg-SVN" firstAttribute="top" secondItem="fyy-w0-Moy" secondAttribute="top" constant="8" id="fMl-pd-vKl"/>
+                                                    <constraint firstItem="wim-jg-SVN" firstAttribute="centerY" secondItem="fyy-w0-Moy" secondAttribute="centerY" id="fyv-Cd-LR0"/>
+                                                </constraints>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="extraLight"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="1Z2-xi-mqm" firstAttribute="leading" secondItem="iX5-ew-DwE" secondAttribute="leading" id="CBg-XL-0rf"/>
+                                        <constraint firstItem="1Z2-xi-mqm" firstAttribute="top" secondItem="iX5-ew-DwE" secondAttribute="top" id="Jb2-7N-iZN"/>
+                                        <constraint firstAttribute="trailing" secondItem="1Z2-xi-mqm" secondAttribute="trailing" id="fw9-08-IMl"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="light"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kv7-nP-yf5" userLabel="Restart Experience Button Icon">
+                                <rect key="frame" x="331" y="0.0" width="44" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="a9W-yL-zeR"/>
+                                    <constraint firstAttribute="width" constant="44" id="jwB-vC-T9c"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="12"/>
+                                <state key="normal" image="restart"/>
+                                <state key="selected" image="restartPressed"/>
+                                <state key="highlighted" image="restartPressed"/>
+                                <connections>
+                                    <action selector="restartExperience:" destination="edC-Sl-R4A" eventType="touchUpInside" id="HhN-hf-9dq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nS7-XY-fhy" firstAttribute="top" secondItem="kv7-nP-yf5" secondAttribute="top" constant="20" id="2TS-s5-KHk"/>
+                            <constraint firstItem="nS7-XY-fhy" firstAttribute="leading" secondItem="FBe-Po-j5a" secondAttribute="leading" constant="16" id="BHH-Gn-egm"/>
+                            <constraint firstItem="kv7-nP-yf5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="nS7-XY-fhy" secondAttribute="trailing" constant="8" id="PSv-fm-4SE"/>
+                            <constraint firstItem="FBe-Po-j5a" firstAttribute="trailing" secondItem="kv7-nP-yf5" secondAttribute="trailing" id="X4f-b5-r1d"/>
+                            <constraint firstItem="kv7-nP-yf5" firstAttribute="top" secondItem="FBe-Po-j5a" secondAttribute="top" id="fbD-eK-TDk"/>
+                            <constraint firstItem="FBe-Po-j5a" firstAttribute="bottom" secondItem="nS7-XY-fhy" secondAttribute="bottom" constant="16" id="v2E-LY-kmP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FBe-Po-j5a"/>
+                    </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="wim-jg-SVN" id="XAu-5b-XkS"/>
+                        <outlet property="messagePanel" destination="nS7-XY-fhy" id="XcK-Z6-hLb"/>
+                        <outlet property="restartExperienceButton" destination="kv7-nP-yf5" id="fX8-wI-u5W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pDY-Z9-2TT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="54" y="-1377"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="restart" width="20" height="23"/>
+        <image name="restartPressed" width="20" height="23"/>
+    </resources>
+</document>

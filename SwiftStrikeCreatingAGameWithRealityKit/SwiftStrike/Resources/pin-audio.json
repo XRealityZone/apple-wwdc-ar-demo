@@ -1,0 +1,169 @@
+{
+    "comment": "2 = pin on field (floor), 4 = pin on pin, 8 = pin on ball, 16 = pin on paddle, 32 = pin on force field",
+    "collisions": [
+        {
+            "comment": "This is the ground",
+            "group": 2,
+            "gain": {
+                "minInput": 0.3,
+                "maxInput": 2.0,
+                "minOutput": -12.0,
+                "maxOutput": -0.0,
+            },
+            "coolDown": 0.2,
+            "variants": {
+                "default": [
+                    {
+                        "comment": "pin hit on ground",
+                        "impulseThreshold": 0.3,
+                        "sounds": [
+                            "Pins_Body_Body_Medium_Stage01_050619_02",
+                            "Pins_Body_Body_Medium_Stage01_050619_04",
+                            "Pins_Body_Body_Medium_Stage01_050619_06",
+                            "Pins_Body_Body_Medium_Stage01_050619_07",
+                            "Pins_Body_Body_Medium_Stage01_050619_08"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "comment": "This is another pin",
+            "group": 4,
+            "coolDown": 0.2,
+            "gain": {
+                "minInput": 0.1,
+                "minOutput": -20.0,
+                "maxInput": 2.0,
+                "maxOutput": -1.0,
+            },
+            "variants": {
+                "Top": [
+                    {
+                        "comment": "high",
+                        "impulseThreshold": 0.9,
+                        "sounds": [
+                            "Pin_Head_High_Stage_1",
+                            "Pin_Head_High_Stage_2",
+                            "Pin_Head_High_Stage_3",
+                            "Pin_Head_High_Studio_1",
+                            "Pin_Head_High_Studio_2",
+                            "Pin_Head_High_Studio_3",
+                            "Pin_Head_High_Studio_4"
+                        ],
+                    },
+                    {
+                        "comment": "medium",
+                        "impulseThreshold": 0.1,
+                        "sounds": [
+                            "Pin_Head_Medium_Stage_1",
+                            "Pin_Head_Medium_Stage_2",
+                            "Pin_Head_Medium_Stage_3",
+                            "Pin_Head_Medium_Studio_1",
+                            "Pin_Head_Medium_Studio_2",
+                            "Pin_Head_Medium_Studio_3",
+                            "Pin_Head_Medium_Studio_4"
+                        ],
+                    }
+                ],
+                "Bottom": [
+                    {
+                        "comment": "high",
+                        "impulseThreshold": 0.9,
+                        "sounds": [
+                            "Pin_Body_High_Stage_1",
+                            "Pin_Body_High_Stage_2",
+                            "Pin_Body_High_Stage_3",
+                            "Pin_Body_High_Studio_1",
+                            "Pin_Body_High_Studio_2",
+                            "Pin_Body_High_Studio_3",
+                            "Pin_Body_High_Studio_4"
+                        ],
+                    },
+                    {
+                        "comment": "medium",
+                        "impulseThreshold": 0.1,
+                        "sounds": [
+                            "Pin_Body_Medium_Stage_1",
+                            "Pin_Body_Medium_Stage_2",
+                            "Pin_Body_Medium_Stage_3",
+                            "Pin_Body_Medium_Studio_1",
+                            "Pin_Body_Medium_Studio_2",
+                            "Pin_Body_Medium_Studio_3",
+                            "Pin_Body_Medium_Studio_4"
+                        ],
+                    }
+                ]
+            }
+        },
+        {
+            "comment": "This is with the wall",
+            "group": 64,
+            "coolDown": 0.2,
+            "gain": {
+                "minInput": 0.1,
+                "minOutput": -30.0,
+                "maxInput": 2.0,
+                "maxOutput": -1.0,
+            },
+            "variants": {
+                "Top": [
+                    {
+                        "comment": "high",
+                        "impulseThreshold": 0.9,
+                        "sounds": [
+                            "Pin_Head_High_Stage_1",
+                            "Pin_Head_High_Stage_2",
+                            "Pin_Head_High_Stage_3",
+                            "Pin_Head_High_Studio_1",
+                            "Pin_Head_High_Studio_2",
+                            "Pin_Head_High_Studio_3",
+                            "Pin_Head_High_Studio_4"
+                        ],
+                    },
+                    {
+                        "comment": "medium",
+                        "impulseThreshold": 0.1,
+                        "sounds": [
+                            "Pin_Head_Medium_Stage_1",
+                            "Pin_Head_Medium_Stage_2",
+                            "Pin_Head_Medium_Stage_3",
+                            "Pin_Head_Medium_Studio_1",
+                            "Pin_Head_Medium_Studio_2",
+                            "Pin_Head_Medium_Studio_3",
+                            "Pin_Head_Medium_Studio_4"
+                        ],
+                    }
+                ],
+                "Bottom": [
+                    {
+                        "comment": "high",
+                        "impulseThreshold": 0.9,
+                        "sounds": [
+                            "Pin_Body_High_Stage_1",
+                            "Pin_Body_High_Stage_2",
+                            "Pin_Body_High_Stage_3",
+                            "Pin_Body_High_Studio_1",
+                            "Pin_Body_High_Studio_2",
+                            "Pin_Body_High_Studio_3",
+                            "Pin_Body_High_Studio_4"
+                        ],
+                    },
+                    {
+                        "comment": "medium",
+                        "impulseThreshold": 0.1,
+                        "sounds": [
+                            "Pin_Body_Medium_Stage_1",
+                            "Pin_Body_Medium_Stage_2",
+                            "Pin_Body_Medium_Stage_3",
+                            "Pin_Body_Medium_Studio_1",
+                            "Pin_Body_Medium_Studio_2",
+                            "Pin_Body_Medium_Studio_3",
+                            "Pin_Body_Medium_Studio_4"
+                        ],
+                    }
+                ]
+            }
+        }
+    ]
+}

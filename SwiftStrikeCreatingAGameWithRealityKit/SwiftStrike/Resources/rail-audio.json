@@ -1,0 +1,14 @@
+{
+    "groups": [
+        {
+            "group": 8,
+            "minimumImpulse": 0.1,
+            "minimumGain": 0.0,
+            "maximumImpulse": 100.0,
+            "maximumGain": 0.0,
+            "names": [
+                "ball_hit_pole_v1"
+            ]
+        }
+    ]
+}

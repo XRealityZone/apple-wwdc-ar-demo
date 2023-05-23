@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F27E31A268B9B6600D85D2F /* Entity+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27E319268B9B6600D85D2F /* Entity+Utilities.swift */; };
+		1F27E37F268BD99F00D85D2F /* texture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F27E37E268BD99F00D85D2F /* texture.jpg */; };
+		1F27E385268CCDFC00D85D2F /* UVHelpers.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1F27E384268CCDFC00D85D2F /* UVHelpers.metal */; };
+		1F27E38A268CCFF400D85D2F /* CustomMaterialHelpers.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1F27E389268CCFF400D85D2F /* CustomMaterialHelpers.metal */; };
+		1F3276DD274578FB001E3AE8 /* ApplicationActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3276DC274578FB001E3AE8 /* ApplicationActions.swift */; };
+		1F3276E22746C621001E3AE8 /* whoosh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F3276E12746C621001E3AE8 /* whoosh.wav */; };
+		1F60812E276BCE9F00E9A811 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1F60812D276BCE9F00E9A811 /* toy_robot_vintage.usdz */; };
+		1FECB4B226BC5E4F00073332 /* pop5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1FECB4AC26BC5E4E00073332 /* pop5.wav */; };
+		1FECB4B326BC5E4F00073332 /* pop3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1FECB4AD26BC5E4E00073332 /* pop3.wav */; };
+		1FECB4B426BC5E4F00073332 /* pop4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1FECB4AE26BC5E4E00073332 /* pop4.wav */; };
+		1FECB4B526BC5E4F00073332 /* pop6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1FECB4AF26BC5E4E00073332 /* pop6.wav */; };
+		1FECB4B626BC5E4F00073332 /* pop1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1FECB4B026BC5E4E00073332 /* pop1.wav */; };
+		1FECB4B726BC5E4F00073332 /* pop2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1FECB4B126BC5E4F00073332 /* pop2.wav */; };
+		1FECB4B926BC8DE200073332 /* ExpandGeometryModifier.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1FECB4B826BC8DE200073332 /* ExpandGeometryModifier.metal */; };
+		1FECB4BD26BCA26200073332 /* RealityViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FECB4BC26BCA26200073332 /* RealityViewContainer.swift */; };
+		1FF6AA7026828BCE00852A77 /* PopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF6AA6F26828BCE00852A77 /* PopApp.swift */; };
+		1FF6AA7226828BCE00852A77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF6AA7126828BCE00852A77 /* ContentView.swift */; };
+		1FF6AA7426828BD000852A77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF6AA7326828BD000852A77 /* Assets.xcassets */; };
+		1FF6AA7726828BD000852A77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF6AA7626828BD000852A77 /* Preview Assets.xcassets */; };
+		1FF6AA7F26828BE000852A77 /* RealityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF6AA7E26828BE000852A77 /* RealityKit.framework */; };
+		1FF6AA8326828D2100852A77 /* RealityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF6AA8226828D2100852A77 /* RealityView.swift */; };
+		1FF6AA8726828E0200852A77 /* DissolveSurfaceShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1FF6AA8526828E0200852A77 /* DissolveSurfaceShader.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F27E319268B9B6600D85D2F /* Entity+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+Utilities.swift"; sourceTree = "<group>"; };
+		1F27E37D268BABC200D85D2F /* Pop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pop-Info.plist"; sourceTree = "<group>"; };
+		1F27E37E268BD99F00D85D2F /* texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture.jpg; sourceTree = "<group>"; };
+		1F27E384268CCDFC00D85D2F /* UVHelpers.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = UVHelpers.metal; sourceTree = "<group>"; };
+		1F27E386268CCE0B00D85D2F /* UVHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UVHelpers.h; sourceTree = "<group>"; };
+		1F27E388268CCFE900D85D2F /* CustomMaterialHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomMaterialHelpers.h; sourceTree = "<group>"; };
+		1F27E389268CCFF400D85D2F /* CustomMaterialHelpers.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = CustomMaterialHelpers.metal; sourceTree = "<group>"; };
+		1F3276DC274578FB001E3AE8 /* ApplicationActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationActions.swift; sourceTree = "<group>"; };
+		1F3276E12746C621001E3AE8 /* whoosh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whoosh.wav; sourceTree = "<group>"; };
+		1F60812D276BCE9F00E9A811 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		1FECB4AC26BC5E4E00073332 /* pop5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop5.wav; sourceTree = "<group>"; };
+		1FECB4AD26BC5E4E00073332 /* pop3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop3.wav; sourceTree = "<group>"; };
+		1FECB4AE26BC5E4E00073332 /* pop4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop4.wav; sourceTree = "<group>"; };
+		1FECB4AF26BC5E4E00073332 /* pop6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop6.wav; sourceTree = "<group>"; };
+		1FECB4B026BC5E4E00073332 /* pop1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop1.wav; sourceTree = "<group>"; };
+		1FECB4B126BC5E4F00073332 /* pop2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop2.wav; sourceTree = "<group>"; };
+		1FECB4B826BC8DE200073332 /* ExpandGeometryModifier.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ExpandGeometryModifier.metal; sourceTree = "<group>"; };
+		1FECB4BC26BCA26200073332 /* RealityViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityViewContainer.swift; sourceTree = "<group>"; };
+		1FF6AA6C26828BCE00852A77 /* Pop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF6AA6F26828BCE00852A77 /* PopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopApp.swift; sourceTree = "<group>"; };
+		1FF6AA7126828BCE00852A77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FF6AA7326828BD000852A77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FF6AA7626828BD000852A77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FF6AA7E26828BE000852A77 /* RealityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityKit.framework; path = System/Library/Frameworks/RealityKit.framework; sourceTree = SDKROOT; };
+		1FF6AA8226828D2100852A77 /* RealityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityView.swift; sourceTree = "<group>"; };
+		1FF6AA8526828E0200852A77 /* DissolveSurfaceShader.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = DissolveSurfaceShader.metal; sourceTree = "<group>"; };
+		2C8CA4FA92166ECA61EA0004 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3BCBE5EB2C1E7D798F81D8AD /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		8736FEFB4F77CCC01D380151 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FF6AA6926828BCE00852A77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF6AA7F26828BE000852A77 /* RealityKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F27E387268CCFBD00D85D2F /* Metal Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				1FF6AA8526828E0200852A77 /* DissolveSurfaceShader.metal */,
+				1FECB4B826BC8DE200073332 /* ExpandGeometryModifier.metal */,
+				1F27E386268CCE0B00D85D2F /* UVHelpers.h */,
+				1F27E384268CCDFC00D85D2F /* UVHelpers.metal */,
+				1F27E388268CCFE900D85D2F /* CustomMaterialHelpers.h */,
+				1F27E389268CCFF400D85D2F /* CustomMaterialHelpers.metal */,
+			);
+			path = "Metal Shaders";
+			sourceTree = "<group>";
+		};
+		1F3276E027457DD0001E3AE8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1FF6AA8226828D2100852A77 /* RealityView.swift */,
+				1FECB4BC26BCA26200073332 /* RealityViewContainer.swift */,
+				1FF6AA7126828BCE00852A77 /* ContentView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1FECB4A926BC5D1000073332 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1FECB4B026BC5E4E00073332 /* pop1.wav */,
+				1FECB4B126BC5E4F00073332 /* pop2.wav */,
+				1FECB4AD26BC5E4E00073332 /* pop3.wav */,
+				1FECB4AE26BC5E4E00073332 /* pop4.wav */,
+				1FECB4AC26BC5E4E00073332 /* pop5.wav */,
+				1FECB4AF26BC5E4E00073332 /* pop6.wav */,
+				1F3276E12746C621001E3AE8 /* whoosh.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		1FF6AA6326828BCE00852A77 = {
+			isa = PBXGroup;
+			children = (
+				2C8CA4FA92166ECA61EA0004 /* README.md */,
+				1F27E37D268BABC200D85D2F /* Pop-Info.plist */,
+				1FF6AA6E26828BCE00852A77 /* Pop */,
+				1FF6AA6D26828BCE00852A77 /* Products */,
+				1FF6AA7D26828BE000852A77 /* Frameworks */,
+				517B49227E0FC370D1EF1BFF /* Configuration */,
+				7E6A86D1CF2207BACE2FC7F1 /* LICENSE */,
+			);
+			sourceTree = "<group>";
+		};
+		1FF6AA6D26828BCE00852A77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FF6AA6C26828BCE00852A77 /* Pop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FF6AA6E26828BCE00852A77 /* Pop */ = {
+			isa = PBXGroup;
+			children = (
+				1FECB4A926BC5D1000073332 /* Sounds */,
+				1F27E387268CCFBD00D85D2F /* Metal Shaders */,
+				1F3276E027457DD0001E3AE8 /* UI */,
+				1F27E319268B9B6600D85D2F /* Entity+Utilities.swift */,
+				1FF6AA6F26828BCE00852A77 /* PopApp.swift */,
+				1F3276DC274578FB001E3AE8 /* ApplicationActions.swift */,
+				1F60812D276BCE9F00E9A811 /* toy_robot_vintage.usdz */,
+				1F27E37E268BD99F00D85D2F /* texture.jpg */,
+				1FF6AA7326828BD000852A77 /* Assets.xcassets */,
+				1FF6AA7526828BD000852A77 /* Preview Content */,
+			);
+			path = Pop;
+			sourceTree = "<group>";
+		};
+		1FF6AA7526828BD000852A77 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1FF6AA7626828BD000852A77 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FF6AA7D26828BE000852A77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FF6AA7E26828BE000852A77 /* RealityKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		517B49227E0FC370D1EF1BFF /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3BCBE5EB2C1E7D798F81D8AD /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		7E6A86D1CF2207BACE2FC7F1 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				8736FEFB4F77CCC01D380151 /* LICENSE.txt */,
+			);
+			name = LICENSE;
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FF6AA6B26828BCE00852A77 /* Pop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF6AA7A26828BD000852A77 /* Build configuration list for PBXNativeTarget "Pop" */;
+			buildPhases = (
+				1FF6AA6826828BCE00852A77 /* Sources */,
+				1FF6AA6926828BCE00852A77 /* Frameworks */,
+				1FF6AA6A26828BCE00852A77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pop;
+			productName = RealityKitMaterialFunctions;
+			productReference = 1FF6AA6C26828BCE00852A77 /* Pop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FF6AA6426828BCE00852A77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					1FF6AA6B26828BCE00852A77 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 1FF6AA6726828BCE00852A77 /* Build configuration list for PBXProject "Pop" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FF6AA6326828BCE00852A77;
+			productRefGroup = 1FF6AA6D26828BCE00852A77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FF6AA6B26828BCE00852A77 /* Pop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FF6AA6A26828BCE00852A77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FECB4B326BC5E4F00073332 /* pop3.wav in Resources */,
+				1FECB4B526BC5E4F00073332 /* pop6.wav in Resources */,
+				1F60812E276BCE9F00E9A811 /* toy_robot_vintage.usdz in Resources */,
+				1FECB4B226BC5E4F00073332 /* pop5.wav in Resources */,
+				1FF6AA7726828BD000852A77 /* Preview Assets.xcassets in Resources */,
+				1F3276E22746C621001E3AE8 /* whoosh.wav in Resources */,
+				1FF6AA7426828BD000852A77 /* Assets.xcassets in Resources */,
+				1FECB4B726BC5E4F00073332 /* pop2.wav in Resources */,
+				1FECB4B426BC5E4F00073332 /* pop4.wav in Resources */,
+				1FECB4B626BC5E4F00073332 /* pop1.wav in Resources */,
+				1F27E37F268BD99F00D85D2F /* texture.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FF6AA6826828BCE00852A77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FECB4B926BC8DE200073332 /* ExpandGeometryModifier.metal in Sources */,
+				1F27E31A268B9B6600D85D2F /* Entity+Utilities.swift in Sources */,
+				1F27E38A268CCFF400D85D2F /* CustomMaterialHelpers.metal in Sources */,
+				1FF6AA7226828BCE00852A77 /* ContentView.swift in Sources */,
+				1F27E385268CCDFC00D85D2F /* UVHelpers.metal in Sources */,
+				1F3276DD274578FB001E3AE8 /* ApplicationActions.swift in Sources */,
+				1FF6AA8326828D2100852A77 /* RealityView.swift in Sources */,
+				1FF6AA7026828BCE00852A77 /* PopApp.swift in Sources */,
+				1FECB4BD26BCA26200073332 /* RealityViewContainer.swift in Sources */,
+				1FF6AA8726828E0200852A77 /* DissolveSurfaceShader.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1FF6AA7826828BD000852A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCBE5EB2C1E7D798F81D8AD /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FF6AA7926828BD000852A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCBE5EB2C1E7D798F81D8AD /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FF6AA7B26828BD000852A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCBE5EB2C1E7D798F81D8AD /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pop-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = SurfaceShaderWithLoadedModels;
+				INFOPLIST_KEY_CFBundleName = SurfaceShaderWithLoadedModels;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR apps require access to the camera to function.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Pop${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FF6AA7C26828BD000852A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCBE5EB2C1E7D798F81D8AD /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pop-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = SurfaceShaderWithLoadedModels;
+				INFOPLIST_KEY_CFBundleName = SurfaceShaderWithLoadedModels;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR apps require access to the camera to function.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Pop${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FF6AA6726828BCE00852A77 /* Build configuration list for PBXProject "Pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF6AA7826828BD000852A77 /* Debug */,
+				1FF6AA7926828BD000852A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF6AA7A26828BD000852A77 /* Build configuration list for PBXNativeTarget "Pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF6AA7B26828BD000852A77 /* Debug */,
+				1FF6AA7C26828BD000852A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FF6AA6426828BCE00852A77 /* Project object */;
+}

@@ -1,0 +1,29 @@
+{
+    "collisions": [
+        {
+            "comment": "This is the ball.",
+            "group": 8,
+            "coolDown": 0.2,
+            "gain": {
+                "minInput": 0.0,
+                "maxInput": 10.0,
+                "minOutput": 0.0,
+                "maxOutput": 0.0
+            },
+            "variants": {
+                "default" : [
+                    {
+                        "impulseThreshold": 0.0,
+                        "sounds": [
+                            "Bang_14",
+                            "Bang_15",
+                            "Bang_16",
+                            "Bang_17"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
+

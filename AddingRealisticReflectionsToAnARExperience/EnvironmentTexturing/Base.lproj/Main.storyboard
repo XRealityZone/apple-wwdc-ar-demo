@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="EnvironmentTexturing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RLh-bf-1c3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" wantsMultisampling="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E6c-py-dvH" customClass="ARSCNView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </sceneKitView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="XeD-pr-G3C">
+                                <rect key="frame" x="111" y="619" width="153" height="29"/>
+                                <segments>
+                                    <segment title="Automatic"/>
+                                    <segment title="Manual"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeMode:" destination="BV1-FR-VrT" eventType="valueChanged" id="uBH-hs-Yzh"/>
+                                </connections>
+                            </segmentedControl>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QcN-RP-reP">
+                                <rect key="frame" x="16" y="28" width="343" height="50"/>
+                                <subviews>
+                                    <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2CY-bR-Iwn">
+                                        <rect key="frame" x="0.0" y="0.0" width="285" height="50"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="prA-ua-NAi">
+                                            <rect key="frame" x="0.0" y="0.0" width="285" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Initializing" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HqP-mx-ucx">
+                                                    <rect key="frame" x="8" y="8" width="269" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="HqP-mx-ucx" firstAttribute="leading" secondItem="prA-ua-NAi" secondAttribute="leading" constant="8" id="CWE-b8-pMP"/>
+                                                <constraint firstAttribute="trailing" secondItem="HqP-mx-ucx" secondAttribute="trailing" constant="8" id="H1H-a9-B7S"/>
+                                                <constraint firstItem="HqP-mx-ucx" firstAttribute="top" secondItem="prA-ua-NAi" secondAttribute="top" constant="8" id="ogH-lF-k2r"/>
+                                                <constraint firstAttribute="bottom" secondItem="HqP-mx-ucx" secondAttribute="bottom" constant="8" id="rrA-v7-LIE"/>
+                                            </constraints>
+                                        </view>
+                                        <blurEffect style="light"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </visualEffectView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4b-LB-4ED" userLabel="Restart Experience Button">
+                                        <rect key="frame" x="293" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="49r-k4-5mq"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="60o-nv-NPM"/>
+                                        </constraints>
+                                        <state key="normal" image="restart"/>
+                                        <state key="highlighted" image="restartPressed"/>
+                                        <connections>
+                                            <action selector="restartExperience" destination="BV1-FR-VrT" eventType="touchUpInside" id="a4n-qR-QAI"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="QcN-RP-reP" secondAttribute="trailing" constant="16" id="0Tu-zA-qNb"/>
+                            <constraint firstItem="QcN-RP-reP" firstAttribute="top" secondItem="GBj-4O-Whc" secondAttribute="top" constant="8" id="AKA-iU-Emo"/>
+                            <constraint firstItem="E6c-py-dvH" firstAttribute="top" secondItem="RLh-bf-1c3" secondAttribute="top" id="boO-ZZ-neH"/>
+                            <constraint firstItem="GBj-4O-Whc" firstAttribute="bottom" secondItem="XeD-pr-G3C" secondAttribute="bottom" constant="20" id="bqh-68-Opk"/>
+                            <constraint firstItem="GBj-4O-Whc" firstAttribute="trailing" secondItem="E6c-py-dvH" secondAttribute="trailing" id="brT-qF-Rdk"/>
+                            <constraint firstItem="QcN-RP-reP" firstAttribute="leading" secondItem="GBj-4O-Whc" secondAttribute="leading" constant="16" id="f4j-fi-9AO"/>
+                            <constraint firstAttribute="bottom" secondItem="E6c-py-dvH" secondAttribute="bottom" id="kLb-BI-xJ4"/>
+                            <constraint firstItem="XeD-pr-G3C" firstAttribute="centerX" secondItem="RLh-bf-1c3" secondAttribute="centerX" id="v1c-mO-Rt5"/>
+                            <constraint firstItem="E6c-py-dvH" firstAttribute="leading" secondItem="GBj-4O-Whc" secondAttribute="leading" id="wEL-Op-yTe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GBj-4O-Whc"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="h75-AW-Vff" appends="YES" id="hca-we-r0m"/>
+                            <outletCollection property="gestureRecognizers" destination="obf-n1-VgE" appends="YES" id="QhK-jg-Jph"/>
+                            <outletCollection property="gestureRecognizers" destination="BM5-Pj-36z" appends="YES" id="4Q2-TI-9u9"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="E6c-py-dvH" id="Gr4-Uw-Z4A"/>
+                        <outlet property="sessionInfoLabel" destination="HqP-mx-ucx" id="B0m-Wh-oMg"/>
+                        <outlet property="sessionInfoView" destination="2CY-bR-Iwn" id="efm-8a-Vv6"/>
+                        <outlet property="textureModeSelectionControl" destination="XeD-pr-G3C" id="fdO-JN-u0k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="h75-AW-Vff">
+                    <connections>
+                        <action selector="didTap:" destination="BV1-FR-VrT" id="A7S-kM-lsS"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pinchGestureRecognizer id="obf-n1-VgE">
+                    <connections>
+                        <action selector="didScale:" destination="BV1-FR-VrT" id="cIj-1J-2rS"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="BM5-Pj-36z">
+                    <connections>
+                        <action selector="didPan:" destination="BV1-FR-VrT" id="Upb-BN-hR4"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="98.50074962518741"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="restart" width="20" height="23"/>
+        <image name="restartPressed" width="20" height="23"/>
+    </resources>
+</document>

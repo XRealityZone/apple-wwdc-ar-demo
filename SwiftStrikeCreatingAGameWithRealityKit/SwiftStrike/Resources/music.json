@@ -1,0 +1,12 @@
+{
+    "music_title": {
+        "filename": "Sounds/music_title.m4a",
+        "volumeDB": -6.0,
+        "loops": true
+    },
+    "music_menu_swift_strike": {
+        "filename": "Sounds/Old Milan.m4a",
+        "volumeDB": -6.0,
+        "loops": true
+    }
+}

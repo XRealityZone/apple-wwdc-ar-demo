@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14854.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14806.4"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="ScreenSpace_Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="910-8G-9YB" userLabel="AR View" customClass="ARView" customModule="RealityKit">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rEo-kn-fwL" customClass="MessageLabel" customModule="ScreenSpace_Sample" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="10" width="355" height="40"/>
+                                        <color key="backgroundColor" red="0.6922967941" green="0.6922967941" blue="0.6922967941" alpha="0.88345296959999997" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Gps-hS-WXS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="rEo-kn-fwL" firstAttribute="leading" secondItem="910-8G-9YB" secondAttribute="leading" constant="10" id="IZG-og-EU0"/>
+                                    <constraint firstAttribute="trailing" secondItem="rEo-kn-fwL" secondAttribute="trailing" constant="10" id="rwd-YS-Ez2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rEo-kn-fwL" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" constant="10" id="4HY-BO-y3l"/>
+                            <constraint firstItem="910-8G-9YB" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="SjT-Ur-2LK"/>
+                            <constraint firstItem="910-8G-9YB" firstAttribute="bottom" secondItem="U0K-SW-4ec" secondAttribute="bottom" id="oVd-2z-Zng"/>
+                            <constraint firstItem="910-8G-9YB" firstAttribute="trailing" secondItem="U0K-SW-4ec" secondAttribute="trailing" id="syF-HS-yMQ"/>
+                            <constraint firstItem="910-8G-9YB" firstAttribute="leading" secondItem="U0K-SW-4ec" secondAttribute="leading" id="tfJ-sm-Fa3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
+                    </view>
+                    <connections>
+                        <outlet property="arView" destination="910-8G-9YB" id="iXw-Sm-z58"/>
+                        <outlet property="messageLabel" destination="rEo-kn-fwL" id="E1s-NQ-Nd4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="27.436281859070466"/>
+        </scene>
+    </scenes>
+</document>

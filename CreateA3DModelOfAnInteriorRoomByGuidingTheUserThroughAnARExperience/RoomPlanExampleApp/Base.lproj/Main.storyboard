@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21157" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qdR-sG-hoR">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21151.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Onboarding View Controller-->
+        <scene sceneID="m66-v5-RJU">
+            <objects>
+                <viewController storyboardIdentifier="OnboardingViewController" id="qdR-sG-hoR" customClass="OnboardingViewController" customModule="RoomPlanExampleApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yBf-P1-2uZ">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7pk-tu-CeD">
+                                <rect key="frame" x="40" y="230" width="348" height="152.33333333333337"/>
+                                <string key="text">To scan your room, point your device at all the walls, windows, doors and furniture in your space until your scan is complete.
+
+You can see a preview of your scan at the bottom of the screen so you can make sure your scan is correct. </string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RoomPlan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDs-He-YN5">
+                                <rect key="frame" x="133.66666666666669" y="174" width="160.66666666666669" height="41"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" role="primary" translatesAutoresizingMaskIntoConstraints="NO" id="r5J-Dx-sgl">
+                                <rect key="frame" x="114" y="809" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="QUA-Ca-Q71"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="sD5-cO-lCf"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemBlueColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Start Scanning" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background"/>
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleHeadline"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="startScan:" destination="qdR-sG-hoR" eventType="touchUpInside" id="ffE-j3-IOw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Fz-hG-eHB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7pk-tu-CeD" firstAttribute="leading" secondItem="yBf-P1-2uZ" secondAttribute="leading" constant="40" id="5Ff-Ks-CH2"/>
+                            <constraint firstItem="7pk-tu-CeD" firstAttribute="centerX" secondItem="yBf-P1-2uZ" secondAttribute="centerX" id="IgI-hg-NjN"/>
+                            <constraint firstItem="r5J-Dx-sgl" firstAttribute="centerX" secondItem="yBf-P1-2uZ" secondAttribute="centerX" id="SJ7-JW-icA"/>
+                            <constraint firstItem="cDs-He-YN5" firstAttribute="top" secondItem="6Fz-hG-eHB" secondAttribute="top" constant="130" id="SQJ-hz-omc"/>
+                            <constraint firstItem="6Fz-hG-eHB" firstAttribute="bottom" secondItem="r5J-Dx-sgl" secondAttribute="bottom" constant="33" id="WAH-Xu-OKa"/>
+                            <constraint firstItem="7pk-tu-CeD" firstAttribute="top" secondItem="cDs-He-YN5" secondAttribute="bottom" constant="15" id="WHO-Ho-ovq"/>
+                            <constraint firstItem="cDs-He-YN5" firstAttribute="centerX" secondItem="yBf-P1-2uZ" secondAttribute="centerX" id="Wjg-Iv-gWw"/>
+                            <constraint firstAttribute="trailing" secondItem="7pk-tu-CeD" secondAttribute="trailing" constant="40" id="fCa-8j-XGw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mnn-iT-DWc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1593" y="133"/>
+        </scene>
+        <!--Room Capture View Controller-->
+        <scene sceneID="aNf-ca-iLV">
+            <objects>
+                <viewController storyboardIdentifier="RoomCaptureViewController" id="ocJ-nv-BaW" customClass="RoomCaptureViewController" customModule="RoomPlanExampleApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nWS-xs-VtG">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" role="primary" translatesAutoresizingMaskIntoConstraints="NO" id="OzX-Pp-2Ee">
+                                <rect key="frame" x="139" y="793" width="150" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="210-sX-00Y"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="LXe-u0-xIL"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemBlueColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Export" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background"/>
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleHeadline"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="exportResults:" destination="ocJ-nv-BaW" eventType="touchUpInside" id="gF2-ar-BXi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WOl-ED-SbL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OzX-Pp-2Ee" firstAttribute="centerX" secondItem="nWS-xs-VtG" secondAttribute="centerX" id="gon-am-9Jr"/>
+                            <constraint firstItem="OzX-Pp-2Ee" firstAttribute="bottom" secondItem="WOl-ED-SbL" secondAttribute="bottom" id="s3Z-zR-pG8"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Dq2-QF-DBU">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="6LV-FR-JQF">
+                            <connections>
+                                <action selector="cancelScanning:" destination="ocJ-nv-BaW" id="scQ-uG-jSd"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="MQz-pc-UhC">
+                            <connections>
+                                <action selector="doneScanning:" destination="ocJ-nv-BaW" id="SwQ-w5-i51"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="cancelButton" destination="6LV-FR-JQF" id="oID-mD-Z4l"/>
+                        <outlet property="doneButton" destination="MQz-pc-UhC" id="5nF-0P-w1J"/>
+                        <outlet property="exportButton" destination="OzX-Pp-2Ee" id="b0k-6y-wHv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X4N-9i-teE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-49" y="133"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="YP9-Cy-YAh">
+            <objects>
+                <navigationController storyboardIdentifier="RoomCaptureViewNavigationController" id="Yp7-tC-qnz" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yOQ-qe-dy1">
+                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ocJ-nv-BaW" kind="relationship" relationship="rootViewController" id="G1a-mA-26W"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xpx-88-WV9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-820" y="133"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

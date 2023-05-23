@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37BC341F21F1573200AC8E70 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 37BC341E21F1573200AC8E70 /* README.md */; };
+		37D1788321E7F3F60019C9E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D1788221E7F3F60019C9E2 /* AppDelegate.swift */; };
+		37D1788521E7F3F60019C9E2 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D1788421E7F3F60019C9E2 /* art.scnassets */; };
+		37D1788721E7F3F60019C9E2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D1788621E7F3F60019C9E2 /* GameViewController.swift */; };
+		37D1788A21E7F3F60019C9E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D1788821E7F3F60019C9E2 /* Main.storyboard */; };
+		37D1788C21E7F3F70019C9E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D1788B21E7F3F70019C9E2 /* Assets.xcassets */; };
+		37D1788F21E7F3F70019C9E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D1788D21E7F3F70019C9E2 /* LaunchScreen.storyboard */; };
+		37D1789D21E7F5DA0019C9E2 /* MyTechnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D1789C21E7F5DA0019C9E2 /* MyTechnique.swift */; };
+		37D1798521EEABC70019C9E2 /* MyShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 37D1798421EEABC70019C9E2 /* MyShaders.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		363F6A5B494F253D79D12608 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		37BC341E21F1573200AC8E70 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		37D1787F21E7F3F60019C9E2 /* SCNTechniqueCustomSymbols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCNTechniqueCustomSymbols.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D1788221E7F3F60019C9E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37D1788421E7F3F60019C9E2 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		37D1788621E7F3F60019C9E2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		37D1788921E7F3F60019C9E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37D1788B21E7F3F70019C9E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37D1788E21E7F3F70019C9E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37D1789021E7F3F70019C9E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D1789C21E7F5DA0019C9E2 /* MyTechnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTechnique.swift; sourceTree = "<group>"; };
+		37D1798421EEABC70019C9E2 /* MyShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MyShaders.metal; sourceTree = "<group>"; };
+		E22FE3DA71BE9F748FF6E5B3 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37D1787C21E7F3F60019C9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37D1787621E7F3F60019C9E2 = {
+			isa = PBXGroup;
+			children = (
+				37BC341E21F1573200AC8E70 /* README.md */,
+				37D1788121E7F3F60019C9E2 /* SCNTechniqueCustomSymbols */,
+				37D1788021E7F3F60019C9E2 /* Products */,
+				CDC6A2B11F63F4E4EA5AB6F9 /* Configuration */,
+				73DFAD1D1A873E97465B908C /* LICENSE */,
+			);
+			sourceTree = "<group>";
+		};
+		37D1788021E7F3F60019C9E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37D1787F21E7F3F60019C9E2 /* SCNTechniqueCustomSymbols.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37D1788121E7F3F60019C9E2 /* SCNTechniqueCustomSymbols */ = {
+			isa = PBXGroup;
+			children = (
+				37D1788221E7F3F60019C9E2 /* AppDelegate.swift */,
+				37D1788421E7F3F60019C9E2 /* art.scnassets */,
+				37D1788621E7F3F60019C9E2 /* GameViewController.swift */,
+				37D1798421EEABC70019C9E2 /* MyShaders.metal */,
+				37D1789C21E7F5DA0019C9E2 /* MyTechnique.swift */,
+				37D1788821E7F3F60019C9E2 /* Main.storyboard */,
+				37D1788B21E7F3F70019C9E2 /* Assets.xcassets */,
+				37D1788D21E7F3F70019C9E2 /* LaunchScreen.storyboard */,
+				37D1789021E7F3F70019C9E2 /* Info.plist */,
+			);
+			path = SCNTechniqueCustomSymbols;
+			sourceTree = "<group>";
+		};
+		73DFAD1D1A873E97465B908C /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				363F6A5B494F253D79D12608 /* LICENSE.txt */,
+			);
+			name = LICENSE;
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
+		CDC6A2B11F63F4E4EA5AB6F9 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E22FE3DA71BE9F748FF6E5B3 /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37D1787E21E7F3F60019C9E2 /* SCNTechniqueCustomSymbols */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37D1789321E7F3F70019C9E2 /* Build configuration list for PBXNativeTarget "SCNTechniqueCustomSymbols" */;
+			buildPhases = (
+				37D1787B21E7F3F60019C9E2 /* Sources */,
+				37D1787C21E7F3F60019C9E2 /* Frameworks */,
+				37D1787D21E7F3F60019C9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCNTechniqueCustomSymbols;
+			productName = "SCNTechniqueCustomSymbols-Snippet";
+			productReference = 37D1787F21E7F3F60019C9E2 /* SCNTechniqueCustomSymbols.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37D1787721E7F3F60019C9E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					37D1787E21E7F3F60019C9E2 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1200;
+					};
+				};
+			};
+			buildConfigurationList = 37D1787A21E7F3F60019C9E2 /* Build configuration list for PBXProject "SCNTechniqueCustomSymbols" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37D1787621E7F3F60019C9E2;
+			productRefGroup = 37D1788021E7F3F60019C9E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37D1787E21E7F3F60019C9E2 /* SCNTechniqueCustomSymbols */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37D1787D21E7F3F60019C9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D1788521E7F3F60019C9E2 /* art.scnassets in Resources */,
+				37D1788F21E7F3F70019C9E2 /* LaunchScreen.storyboard in Resources */,
+				37BC341F21F1573200AC8E70 /* README.md in Resources */,
+				37D1788C21E7F3F70019C9E2 /* Assets.xcassets in Resources */,
+				37D1788A21E7F3F60019C9E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37D1787B21E7F3F60019C9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D1798521EEABC70019C9E2 /* MyShaders.metal in Sources */,
+				37D1788721E7F3F60019C9E2 /* GameViewController.swift in Sources */,
+				37D1788321E7F3F60019C9E2 /* AppDelegate.swift in Sources */,
+				37D1789D21E7F5DA0019C9E2 /* MyTechnique.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37D1788821E7F3F60019C9E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37D1788921E7F3F60019C9E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37D1788D21E7F3F70019C9E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37D1788E21E7F3F70019C9E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37D1789121E7F3F70019C9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22FE3DA71BE9F748FF6E5B3 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37D1789221E7F3F70019C9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22FE3DA71BE9F748FF6E5B3 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37D1789421E7F3F70019C9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22FE3DA71BE9F748FF6E5B3 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SCNTechniqueCustomSymbols/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.scntechnique-custom-symbols-with-metal${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37D1789521E7F3F70019C9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22FE3DA71BE9F748FF6E5B3 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SCNTechniqueCustomSymbols/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.scntechnique-custom-symbols-with-metal${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37D1787A21E7F3F60019C9E2 /* Build configuration list for PBXProject "SCNTechniqueCustomSymbols" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D1789121E7F3F70019C9E2 /* Debug */,
+				37D1789221E7F3F70019C9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37D1789321E7F3F70019C9E2 /* Build configuration list for PBXNativeTarget "SCNTechniqueCustomSymbols" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D1789421E7F3F70019C9E2 /* Debug */,
+				37D1789521E7F3F70019C9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37D1787721E7F3F60019C9E2 /* Project object */;
+}

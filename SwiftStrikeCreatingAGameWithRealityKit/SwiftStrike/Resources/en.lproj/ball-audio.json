@@ -1,0 +1,14 @@
+{
+    "groups": [
+        {
+            "group": 4,
+            "minimumImpulse": 0.1, 
+            "minimumGain": 0.0,
+            "maximumImpulse": 100.0,
+            "maximumGain": 0.0,
+            "names": [
+                "Ball_Roll_Loop_01.wav"
+            ]
+        }
+    ]
+}

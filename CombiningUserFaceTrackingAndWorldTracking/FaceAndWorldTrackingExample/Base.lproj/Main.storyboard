@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16084" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16077"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ARView-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="ARView" customClass="ViewController" customModule="FaceAndWorldTrackingExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="ARView" customClass="ARView" customModule="RealityKit">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lq-ll-kHw" customClass="MessageLabel" customModule="FaceAndWorldTrackingExample" customModuleProvider="target">
+                                <rect key="frame" x="5" y="49" width="330" height="40"/>
+                                <color key="backgroundColor" white="0.5" alpha="0.79657240316901412" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="e0d-RQ-2JL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G5g-MB-sa8" userLabel="Restart Experience">
+                                <rect key="frame" x="361" y="40" width="44" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="lVS-9R-Y4p"/>
+                                    <constraint firstAttribute="height" constant="59" id="xEn-vy-PWQ"/>
+                                </constraints>
+                                <state key="normal" image="restart"/>
+                                <connections>
+                                    <action selector="restartButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bNC-31-ugV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="G5g-MB-sa8" secondAttribute="top" constant="5" id="M12-Pe-etG"/>
+                            <constraint firstItem="1lq-ll-kHw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="OyK-pw-qkD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="G5g-MB-sa8" secondAttribute="trailing" constant="5" id="QHz-TT-ubY"/>
+                            <constraint firstItem="1lq-ll-kHw" firstAttribute="trailing" secondItem="G5g-MB-sa8" secondAttribute="leading" constant="5" id="sht-2o-Fy8"/>
+                            <constraint firstItem="1lq-ll-kHw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="tPX-1x-Qph"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="arView" destination="8bC-Xf-vdC" id="UmH-qN-yhW"/>
+                        <outlet property="messageLabel" destination="1lq-ll-kHw" id="Geb-dq-sWR"/>
+                        <outlet property="restartButton" destination="G5g-MB-sa8" id="cA4-C1-wLk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+        </scene>
+        <!--Unsupported View Controller-->
+        <scene sceneID="tCP-qf-U2e">
+            <objects>
+                <viewController storyboardIdentifier="unsupportedDeviceMessage" id="PeI-W1-uEk" userLabel="Unsupported View Controller" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a7n-UU-fBY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unsupported Device" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSZ-uP-eCM">
+                                <rect key="frame" x="20" y="374" width="374" height="34"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARKit simultaneous user face-tracking and world tracking requires a device with a front TrueDepth camera." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lFA-vz-nGQ">
+                                <rect key="frame" x="20" y="416" width="374" height="64.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lFA-vz-nGQ" firstAttribute="top" secondItem="cSZ-uP-eCM" secondAttribute="bottom" constant="8" symbolic="YES" id="7le-OV-gOS"/>
+                            <constraint firstItem="lFA-vz-nGQ" firstAttribute="centerX" secondItem="a7n-UU-fBY" secondAttribute="centerX" id="D3Q-QI-7MS"/>
+                            <constraint firstItem="lFA-vz-nGQ" firstAttribute="centerY" secondItem="a7n-UU-fBY" secondAttribute="centerY" id="NkD-IV-pkb"/>
+                            <constraint firstItem="cSZ-uP-eCM" firstAttribute="centerX" secondItem="a7n-UU-fBY" secondAttribute="centerX" id="eaA-AG-f83"/>
+                            <constraint firstItem="cSZ-uP-eCM" firstAttribute="width" secondItem="lFA-vz-nGQ" secondAttribute="width" id="f4l-VB-xD6"/>
+                            <constraint firstItem="lFA-vz-nGQ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="a7n-UU-fBY" secondAttribute="leading" constant="20" symbolic="YES" id="ifI-Mx-Ork"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lFA-vz-nGQ" secondAttribute="trailing" constant="20" symbolic="YES" id="wXe-M7-Pqk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vKL-nO-IKP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sU3-kd-FoC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="922" y="134"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="restart" width="20" height="20"/>
+    </resources>
+</document>

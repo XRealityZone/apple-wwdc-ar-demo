@@ -1,0 +1,18 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+User Setting Strings
+*/
+
+/* Class = "UILabel"; text = "Version Label"; ObjectID = "Onb-LZ-9ie"; */
+"Onb-LZ-9ie.text" = "Version Label";
+
+/* Class = "UILabel"; text = "Game Settings"; ObjectID = "Rq5-Id-Nrw"; */
+"Rq5-Id-Nrw.text" = "Game Settings";
+
+/* Class = "UILabel"; text = "Developer Settings"; ObjectID = "tET-Zj-C5t"; */
+"tET-Zj-C5t.text" = "Developer Settings";
+
+/* Class = "UILabel"; text = "App Version"; ObjectID = "uLH-fb-ozr"; */
+"uLH-fb-ozr.text" = "App Version";

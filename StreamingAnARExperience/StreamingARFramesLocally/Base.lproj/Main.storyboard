@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ViewController-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="ViewController" customClass="ViewController" customModule="AR_Stream" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Res-Mb-TkJ" userLabel="ARView" customClass="ARView" customModule="RealityKit">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <viewLayoutGuide key="safeArea" id="GBC-yt-yGI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="arView" destination="Res-Mb-TkJ" id="1K2-7i-Tqk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+        </scene>
+        <!--OverlayViewController-->
+        <scene sceneID="gHz-OF-w15">
+            <objects>
+                <viewController storyboardIdentifier="OverlayViewController" id="XkX-3i-VuB" userLabel="OverlayViewController" customClass="OverlayViewController" customModule="AR_Stream" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sTZ-ag-Yxd">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mtkView contentMode="scaleToFill" colorPixelFormat="BGRA8Unorm" depthStencilPixelFormat="Depth32Float" translatesAutoresizingMaskIntoConstraints="NO" id="Tae-rn-soD">
+                                <rect key="frame" x="448" y="162" width="448" height="252"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="252" id="NaG-94-T7M"/>
+                                    <constraint firstAttribute="width" constant="448" id="VoR-ia-RR4"/>
+                                </constraints>
+                            </mtkView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2jw-nm-eLQ"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Tae-rn-soD" firstAttribute="trailing" secondItem="sTZ-ag-Yxd" secondAttribute="trailing" id="6OE-Pa-gSH"/>
+                            <constraint firstAttribute="bottom" secondItem="Tae-rn-soD" secondAttribute="bottom" id="cel-kQ-MZs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pipView" destination="Tae-rn-soD" id="fXb-aM-qm6"/>
+                        <outlet property="pipViewHeightConstraint" destination="NaG-94-T7M" id="qPm-KR-VAy"/>
+                        <outlet property="pipViewWidthConstraint" destination="VoR-ia-RR4" id="nGO-cc-1la"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pBz-Iv-M4U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137" y="843"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

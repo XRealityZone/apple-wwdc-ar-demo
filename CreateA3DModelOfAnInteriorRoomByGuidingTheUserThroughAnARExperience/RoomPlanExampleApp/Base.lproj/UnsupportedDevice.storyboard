@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21223" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qdR-sG-hoR">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21204"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Unsupported Device-->
+        <scene sceneID="m66-v5-RJU">
+            <objects>
+                <viewController storyboardIdentifier="OnboardingViewController" id="qdR-sG-hoR" userLabel="Unsupported Device" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yBf-P1-2uZ">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unsupported Device" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6LU-4s-8Zt">
+                                <rect key="frame" x="-0.66666666666665719" y="406" width="429.33333333333326" height="33.666666666666686"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This sample app requires a device with a LiDAR Scanner." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gym-w4-vyx">
+                                <rect key="frame" x="-0.66666666666665719" y="447" width="429.33333333333326" height="73.666666666666629"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73.666666666666629" id="MHM-gc-aK4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Fz-hG-eHB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Fz-hG-eHB" firstAttribute="bottom" secondItem="gym-w4-vyx" secondAttribute="bottom" constant="371.33333333333337" id="Shw-i7-Dag"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6LU-4s-8Zt" secondAttribute="trailing" constant="-0.66666666666662877" id="Yrg-Yg-zFO"/>
+                            <constraint firstItem="gym-w4-vyx" firstAttribute="top" secondItem="6LU-4s-8Zt" secondAttribute="bottom" constant="7.3333333333333144" id="lot-km-gNT"/>
+                            <constraint firstItem="gym-w4-vyx" firstAttribute="leading" secondItem="6LU-4s-8Zt" secondAttribute="leading" id="q1F-2h-uBi"/>
+                            <constraint firstItem="gym-w4-vyx" firstAttribute="centerX" secondItem="yBf-P1-2uZ" secondAttribute="centerX" id="xeH-HR-qo6"/>
+                            <constraint firstItem="6LU-4s-8Zt" firstAttribute="width" secondItem="gym-w4-vyx" secondAttribute="width" id="ykG-Wi-HP2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mnn-iT-DWc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1593" y="133"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

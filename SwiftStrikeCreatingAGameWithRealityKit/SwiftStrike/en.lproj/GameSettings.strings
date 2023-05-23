@@ -1,0 +1,12 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+Game settings localizable strings.
+*/
+
+/* Class = "UILabel"; text = "Device Occlusion"; ObjectID = "Rq5-Id-Nrw"; */
+"Rq5-Id-Nrw.text" = "Device Occlusion";
+
+/* Class = "UITableViewSection"; headerTitle = "SwiftStrike Settings"; ObjectID = "i8F-iL-VVw"; */
+"i8F-iL-VVw.headerTitle" = "SwiftStrike Settings";

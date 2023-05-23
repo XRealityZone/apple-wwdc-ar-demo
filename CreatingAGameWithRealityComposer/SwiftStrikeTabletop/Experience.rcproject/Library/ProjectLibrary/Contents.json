@@ -1,0 +1,22 @@
+[
+  {
+    "libraryIdentifier" : "f69ebcac0510e71c767b0a38d9646f55",
+    "format" : "model",
+    "displayName" : "pinA_tabletopScale.usdz"
+  },
+  {
+    "libraryIdentifier" : "17cfc26f2f4f0fcc080f8844018fac45",
+    "format" : "model",
+    "displayName" : "ballA_tableTopScale_merged_reducedlow.usdz"
+  },
+  {
+    "libraryIdentifier" : "3292c5e7a72237e5a018cfed681a00cf",
+    "format" : "model",
+    "displayName" : "neonWinner.usdz"
+  },
+  {
+    "libraryIdentifier" : "96c517760370ace7c8066ac7ffbf6ce6",
+    "format" : "model",
+    "displayName" : "courtA_tabletop_monorail.usdz"
+  }
+]

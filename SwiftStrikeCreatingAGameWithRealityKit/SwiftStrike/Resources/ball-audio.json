@@ -1,0 +1,146 @@
+{
+    "collisions": [
+        {
+            "comment": "This is the ball collision with the ground",
+            "group": 2,
+            "coolDown": 0.2,
+            "gain": {
+                "minInput": 1.3,
+                "maxInput": 6.0,
+                "minOutput": -10.0,
+                "maxOutput": -0.0
+            },
+            "variants": {
+                "default": [
+                    {
+                        "comment": "This is the ball collision with the ground",
+                        "impulseThreshold": 1.8,
+                        "sounds": [
+                            "Ball_Hit_Ground_01"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "comment": "This is the gutter.",
+            "group": 512,
+            "coolDown": 0.2,
+            "gain": {
+                "minInput": 0.0,
+                "maxInput": 10.0,
+                "minOutput": 0.0,
+                "maxOutput": 0.0
+            },
+            "variants": {
+                "default" : [
+                    {
+                        "impulseThreshold": 0.0,
+                        "sounds": [
+                            "Gutter_9",
+                            "Gutter_10",
+                            "Gutter_11",
+                            "Gutter_12"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "comment": "This is the ball hitting a pin.",
+            "group": 4,
+            "gain": {
+                "minInput": 0.2,
+                "maxInput": 4.0,
+                "minOutput": -20.0,
+                "maxOutput": 3.0
+            },
+            "variants": {
+                "default" : [
+                    {
+                        "comment": "This is hitting a pin, high velocity",
+                        "impulseThreshold": 3.8,
+                        "sounds": [
+                            "Pin_Body_High_Stage_1",
+                            "Pin_Body_High_Stage_2",
+                            "Pin_Body_High_Stage_3",
+                            "Pin_Body_High_Studio_1",
+                            "Pin_Body_High_Studio_2",
+                            "Pin_Body_High_Studio_3",
+                            "Pin_Body_High_Studio_4"
+                        ]
+                    },
+                    {
+                        "comment": "This is hitting a pin, medium velocity",
+                        "impulseThreshold": 0.5,
+                        "sounds": [
+                            "Hit_Ball_01",
+                            "Hit_Ball_02",
+                            "Hit_Ball_03",
+                            "Hit_Ball_04",
+                            "Hit_Ball_05",
+                            "Hit_Ball_06"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "comment": "This is the wall, low velocity",
+            "group": 64,
+
+            "gain": {
+                "minInput": 0.1,
+                "maxInput": 15.0,
+                "minOutput": -20.0,
+                "maxOutput": 6.0
+            },
+
+            "coolDown": 0.2,
+
+            "impulseThreshold": 0.1,
+
+            "variants": {
+                "default": [
+                    {
+                        "comment": "This is the wall, high velocity",
+                        "impulseThreshold": 4.0,
+                        "sounds": [
+                            "Ball_Hit_Rail_10",
+                            "Ball_Hit_Rail_11"
+                        ]
+                    },
+                    {
+                        "comment": "This is the wall, low velocity",
+                        "impulseThreshold": 0.1,
+                        "sounds": [
+                            "Ball_Hit_Rail_06",
+                            "Ball_Hit_Rail_07"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "motion": [
+        {
+            "minimumVelocity": 0.1,
+            "gain": {
+                "minInput": 0.1,
+                "maxInput": 2.0,
+                "minOutput": -50.0,
+                "maxOutput": 0.0,
+                "exponent": 0.35,
+            },
+            "speed": {
+                "minInput": 0.2,
+                "maxInput": 2.0,
+                "minOutput": 0.7,
+                "maxOutput": 1.25
+            },
+
+            "sound": "Ball_Roll_Loop_Wood_01"
+        }
+    ],
+    "motionMappingFunction": "Ball"
+}

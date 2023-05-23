@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16085" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="landscape" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16078.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Errors Alert View Controller-->
+        <scene sceneID="0II-wl-slp">
+            <objects>
+                <viewController storyboardIdentifier="errorsAlert" title="Errors Alert View Controller" modalPresentationStyle="overFullScreen" id="jal-Go-8pB" customClass="ErrorsAlertViewController" customModule="SwiftStrike" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jOu-rv-md2" userLabel="Alert Containter View" customClass="ErrorsAlertCntainerView" customModule="SwiftStrike" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i2x-va-alp" userLabel="Alert View" customClass="ErrorsAlertView" customModule="SwiftStrike" customModuleProvider="target">
+                                <rect key="frame" x="348" y="126.66666666666669" width="200" height="140"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="coB-FW-Id4" userLabel="Errors">
+                                        <rect key="frame" x="8" y="50" width="184" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="184" id="Eb6-dm-s4l"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="18" id="xOB-NJ-t5S"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Errors">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="system" size="15"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="klj-V3-ZxR">
+                                        <rect key="frame" x="8" y="87.999999999999986" width="184" height="44.000000000000014"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="0y2-bK-LcU"/>
+                                        </constraints>
+                                        <items>
+                                            <barButtonItem style="plain" id="79D-CP-kmO">
+                                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FxG-SO-oDc">
+                                                    <rect key="frame" x="16" y="7" width="152" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                                    <state key="normal" title="Dismiss"/>
+                                                    <connections>
+                                                        <action selector="dismissButtonDown:" destination="jal-Go-8pB" eventType="touchDown" id="4Vs-Ao-cnI"/>
+                                                    </connections>
+                                                </button>
+                                            </barButtonItem>
+                                        </items>
+                                    </toolbar>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gi5-fx-JmW" userLabel="Title">
+                                        <rect key="frame" x="8" y="7.9999999999999858" width="184" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="3sX-Xv-ONL"/>
+                                            <constraint firstAttribute="height" constant="30" id="MoI-Uy-9dT"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Title">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="system" size="25"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" staticText="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstItem="2Pz-rD-Emz" firstAttribute="trailing" secondItem="coB-FW-Id4" secondAttribute="trailing" constant="8" id="5lU-dX-nBS"/>
+                                    <constraint firstItem="klj-V3-ZxR" firstAttribute="centerX" secondItem="i2x-va-alp" secondAttribute="centerX" id="6ej-D0-ZBx"/>
+                                    <constraint firstAttribute="bottom" secondItem="klj-V3-ZxR" secondAttribute="bottom" constant="8" id="KSk-bT-ZFy"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="KT9-Os-DgJ"/>
+                                    <constraint firstItem="2Pz-rD-Emz" firstAttribute="trailing" secondItem="gi5-fx-JmW" secondAttribute="trailing" constant="8" id="OHf-vQ-BOY"/>
+                                    <constraint firstItem="gi5-fx-JmW" firstAttribute="top" secondItem="i2x-va-alp" secondAttribute="top" constant="8" id="WYq-mI-V2b"/>
+                                    <constraint firstItem="coB-FW-Id4" firstAttribute="top" secondItem="gi5-fx-JmW" secondAttribute="bottom" constant="12" id="ZLP-oJ-xTe"/>
+                                    <constraint firstItem="gi5-fx-JmW" firstAttribute="leading" secondItem="2Pz-rD-Emz" secondAttribute="leading" constant="8" id="cZL-Mi-UFG"/>
+                                    <constraint firstItem="klj-V3-ZxR" firstAttribute="leading" secondItem="i2x-va-alp" secondAttribute="leadingMargin" id="l2z-pa-qbK"/>
+                                    <constraint firstItem="klj-V3-ZxR" firstAttribute="top" secondItem="coB-FW-Id4" secondAttribute="bottom" constant="20" id="ujJ-xJ-jfA"/>
+                                    <constraint firstItem="coB-FW-Id4" firstAttribute="leading" secondItem="2Pz-rD-Emz" secondAttribute="leading" constant="8" id="wwf-6D-AcE"/>
+                                    <constraint firstItem="gi5-fx-JmW" firstAttribute="centerX" secondItem="2Pz-rD-Emz" secondAttribute="centerX" id="y63-Mv-zOk"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="2Pz-rD-Emz"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" notEnabled="YES"/>
+                        </accessibility>
+                        <constraints>
+                            <constraint firstItem="i2x-va-alp" firstAttribute="height" relation="lessThanOrEqual" secondItem="jOu-rv-md2" secondAttribute="height" multiplier="0.9" id="MOI-F1-gzU"/>
+                            <constraint firstItem="i2x-va-alp" firstAttribute="width" relation="lessThanOrEqual" secondItem="jOu-rv-md2" secondAttribute="width" multiplier="0.9" id="YEe-Bk-ER9"/>
+                            <constraint firstItem="i2x-va-alp" firstAttribute="centerY" secondItem="YV5-d5-KCJ" secondAttribute="centerY" id="h9e-c1-viR"/>
+                            <constraint firstItem="i2x-va-alp" firstAttribute="centerX" secondItem="YV5-d5-KCJ" secondAttribute="centerX" id="zaz-jI-I5h"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YV5-d5-KCJ"/>
+                    </view>
+                    <size key="freeformSize" width="896" height="414"/>
+                    <connections>
+                        <outlet property="dismissButton" destination="FxG-SO-oDc" id="aOx-uy-TkM"/>
+                        <outlet property="errorsLabel" destination="coB-FW-Id4" id="Hc3-yQ-Ftw"/>
+                        <outlet property="titleLabel" destination="gi5-fx-JmW" id="hvW-Wt-Fm4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DOU-kw-X8P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.17733990147784" y="137.59999999999999"/>
+        </scene>
+    </scenes>
+</document>

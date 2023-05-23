@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16085" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad11_0rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16078.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ARView-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="ARView" customClass="ViewController" customModule="Scene_Semantics" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pDv-4v-CSH">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k4Z-bN-ivP">
+                                <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                            </arView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fYp-l9-Sbs" customClass="RoundedButton" customModule="Scene_Semantics" customModuleProvider="target">
+                                <rect key="frame" x="734" y="1134" width="70" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="d6r-DE-hqM"/>
+                                </constraints>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="resetButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ppV-5I-zqo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLm-0H-1oF" customClass="RoundedButton" customModule="Scene_Semantics" customModuleProvider="target">
+                                <rect key="frame" x="30" y="1134" width="120" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="X4V-2V-lzu"/>
+                                </constraints>
+                                <state key="normal" title="Hide Mesh"/>
+                                <connections>
+                                    <action selector="toggleMeshButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oAj-OA-cbI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pt1-je-2X5" userLabel="Plane Detection Button" customClass="RoundedButton" customModule="Scene_Semantics" customModuleProvider="target">
+                                <rect key="frame" x="165" y="1134" width="190" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="190" id="jzP-WY-2gg"/>
+                                </constraints>
+                                <state key="normal" title="Start Plane Detection"/>
+                                <connections>
+                                    <action selector="togglePlaneDetectionButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="agX-lp-e4i"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="fYp-l9-Sbs" firstAttribute="bottom" secondItem="eng-pw-LPV" secondAttribute="bottom" constant="-10" id="4tj-VU-lR0"/>
+                            <constraint firstItem="k4Z-bN-ivP" firstAttribute="leading" secondItem="eng-pw-LPV" secondAttribute="leading" id="BZ1-TQ-PvC"/>
+                            <constraint firstItem="eng-pw-LPV" firstAttribute="trailing" secondItem="fYp-l9-Sbs" secondAttribute="trailing" constant="30" id="M8T-WK-iRE"/>
+                            <constraint firstItem="dLm-0H-1oF" firstAttribute="bottom" secondItem="eng-pw-LPV" secondAttribute="bottom" constant="-10" id="WfC-ha-9r9"/>
+                            <constraint firstItem="k4Z-bN-ivP" firstAttribute="centerX" secondItem="pDv-4v-CSH" secondAttribute="centerX" id="XIC-2g-04I"/>
+                            <constraint firstItem="pt1-je-2X5" firstAttribute="centerY" secondItem="dLm-0H-1oF" secondAttribute="centerY" id="XSF-n8-eB2"/>
+                            <constraint firstItem="k4Z-bN-ivP" firstAttribute="top" secondItem="eng-pw-LPV" secondAttribute="top" id="fOa-iT-qD8"/>
+                            <constraint firstItem="k4Z-bN-ivP" firstAttribute="bottom" secondItem="eng-pw-LPV" secondAttribute="bottom" constant="20" id="gOQ-O6-CEU"/>
+                            <constraint firstItem="dLm-0H-1oF" firstAttribute="leading" secondItem="eng-pw-LPV" secondAttribute="leading" constant="30" id="uZk-zy-jGc"/>
+                            <constraint firstItem="pt1-je-2X5" firstAttribute="leading" secondItem="dLm-0H-1oF" secondAttribute="trailing" constant="15" id="zRo-2n-LAP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eng-pw-LPV"/>
+                    </view>
+                    <connections>
+                        <outlet property="arView" destination="k4Z-bN-ivP" id="EeW-ii-L6y"/>
+                        <outlet property="hideMeshButton" destination="dLm-0H-1oF" id="NGA-3p-6SY"/>
+                        <outlet property="planeDetectionButton" destination="pt1-je-2X5" id="ocA-UV-F6p"/>
+                        <outlet property="resetButton" destination="fYp-l9-Sbs" id="Asq-Yt-JcD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.41007194244605" y="133.66834170854273"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,872 @@
+{
+    "Ball_Disappears_02": {
+        "filename": "Ball_Disappears_02.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Gutter_1": {
+        "filename": "Ball_Gutter_1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Hit_Ground_01": {
+        "filename": "Ball_Hit_Ground_01.wav",
+        "gain": 3.0,
+        "loops": false
+    },
+    "Ball_Hit_Rail_01": {
+        "filename": "Ball_Hit_Rail_01.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Hit_Rail_02": {
+        "filename": "Ball_Hit_Rail_02.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Hit_Rail_03": {
+        "filename": "Ball_Hit_Rail_03.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Hit_Rail_04": {
+        "filename": "Ball_Hit_Rail_04.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Hit_Rail_05": {
+        "filename": "Ball_Hit_Rail_05.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Hit_Rail_06": {
+        "filename": "Ball_Hit_Rail_06.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Hit_Rail_07": {
+        "filename": "Ball_Hit_Rail_07.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Hit_Rail_08": {
+        "filename": "Ball_Hit_Rail_08.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Hit_Rail_09": {
+        "filename": "Ball_Hit_Rail_09.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Hit_Rail_10": {
+        "filename": "Ball_Hit_Rail_10.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Hit_Rail_11": {
+        "filename": "Ball_Hit_Rail_11.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Push_1": {
+        "filename": "Ball_Push_1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Push_2": {
+        "filename": "Ball_Push_2.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Push_3": {
+        "filename": "Ball_Push_3.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Push_4": {
+        "filename": "Ball_Push_4.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Push_5": {
+        "filename": "Ball_Push_5.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Push_6": {
+        "filename": "Ball_Push_6.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Push_Clip_Big": {
+        "filename": "Ball_Push_Clip_Big.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Push_Clip_Small": {
+        "filename": "Ball_Push_Clip_Small.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Push_Loop_1": {
+        "filename": "Ball_Push_Loop_1.wav",
+        "gain": -90.0,
+        "loops": true
+    },
+    "Ball_Roll_Loop_Wood_01": {
+        "filename": "Ball_Roll_Loop_Wood_01.wav",
+        "gain": 0.0,
+        "loops": true
+    },
+    "Ball_Roll_WoodenCourt_051719_01": {
+        "filename": "Ball_Roll_WoodenCourt_051719_01.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Roll_WoodenCourt_051719_02": {
+        "filename": "Ball_Roll_WoodenCourt_051719_02.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Ball_Roll_WoodenCourt_051719_03": {
+        "filename": "Ball_Roll_WoodenCourt_051719_03.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Bang_1": {
+        "filename": "Bang_1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Bang_10": {
+        "filename": "Bang_10.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Bang_13": {
+        "filename": "Bang_13.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Bang_14": {
+        "filename": "Bang_14.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Bang_15": {
+        "filename": "Bang_15.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Bang_16": {
+        "filename": "Bang_16.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Bang_17": {
+        "filename": "Bang_17.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Bang_5": {
+        "filename": "Bang_5.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Gutter_9": {
+        "filename": "Gutter_9.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Gutter_10": {
+        "filename": "Gutter_10.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Gutter_11": {
+        "filename": "Gutter_11.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Gutter_12": {
+        "filename": "Gutter_12.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Count_F_High": {
+        "filename": "Count_F_High.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Count_F_Low": {
+        "filename": "Count_F_Low.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Crowd_Cheer_Mono_050819_01": {
+        "filename": "Crowd_Cheer_Mono_050819_01.wav",
+        "gain": -8.0,
+        "loops": false
+    },
+    "Crowd_Cheer_Mono_050819_02": {
+        "filename": "Crowd_Cheer_Mono_050819_02.wav",
+        "gain": -8.0,
+        "loops": false
+    },
+    "Crowd_Cheer_Mono_050819_03": {
+        "filename": "Crowd_Cheer_Mono_050819_03.wav",
+        "gain": -8.0,
+        "loops": false
+    },
+    "Claps_Cheer_Layer_050819_09": {
+        "filename": "Claps_Cheer_Layer_050819_09.wav",
+        "gain": -5.0,
+        "loops": false
+    },
+    "Claps_Cheer_Layer_050819_10": {
+        "filename": "Claps_Cheer_Layer_050819_10.wav",
+        "gain": -5.0,
+        "loops": false
+    },
+    "Claps_Cheer_Layer_050819_11": {
+        "filename": "Claps_Cheer_Layer_050819_11.wav",
+        "gain": -5.0,
+        "loops": false
+    },
+    "Hit_Ball_01": {
+        "filename": "Hit_Ball_01.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Hit_Ball_02": {
+        "filename": "Hit_Ball_02.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Hit_Ball_03": {
+        "filename": "Hit_Ball_03.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Hit_Ball_04": {
+        "filename": "Hit_Ball_04.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Hit_Ball_05": {
+        "filename": "Hit_Ball_05.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Hit_Ball_06": {
+        "filename": "Hit_Ball_06.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pillar_Glow_F_Loop": {
+        "filename": "Pillar_Glow_F_Loop.wav",
+        "gain": 0.0,
+        "loops": true
+    },
+    "Pin_Body_High_Stage_1": {
+        "filename": "Pin_Body_High_Stage_1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_High_Stage_2": {
+        "filename": "Pin_Body_High_Stage_2.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_High_Stage_3": {
+        "filename": "Pin_Body_High_Stage_3.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_High_Stage_4": {
+        "filename": "Pin_Body_High_Stage_4.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_High_Studio_1": {
+        "filename": "Pin_Body_High_Studio_1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_High_Studio_2": {
+        "filename": "Pin_Body_High_Studio_2.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_High_Studio_3": {
+        "filename": "Pin_Body_High_Studio_3.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_High_Studio_4": {
+        "filename": "Pin_Body_High_Studio_4.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_High_Studio_5": {
+        "filename": "Pin_Body_High_Studio_5.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_High_Studio_6": {
+        "filename": "Pin_Body_High_Studio_6.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_Medium_Stage_1": {
+        "filename": "Pin_Body_Medium_Stage_1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_Medium_Stage_2": {
+        "filename": "Pin_Body_Medium_Stage_2.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_Medium_Stage_3": {
+        "filename": "Pin_Body_Medium_Stage_3.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_Medium_Stage_4": {
+        "filename": "Pin_Body_Medium_Stage_4.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_Medium_Stage_5": {
+        "filename": "Pin_Body_Medium_Stage_5.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_Medium_Stage_6": {
+        "filename": "Pin_Body_Medium_Stage_6.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_Medium_Stage_LOP_1": {
+        "filename": "Pin_Body_Medium_Stage_LOP_1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_Medium_Stage_LOP_2": {
+        "filename": "Pin_Body_Medium_Stage_LOP_2.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_Medium_Studio_1": {
+        "filename": "Pin_Body_Medium_Studio_1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_Medium_Studio_2": {
+        "filename": "Pin_Body_Medium_Studio_2.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_Medium_Studio_3": {
+        "filename": "Pin_Body_Medium_Studio_3.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_Medium_Studio_4": {
+        "filename": "Pin_Body_Medium_Studio_4.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_Medium_Studio_5": {
+        "filename": "Pin_Body_Medium_Studio_5.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_Medium_Studio_6": {
+        "filename": "Pin_Body_Medium_Studio_6.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_Medium_Studio_LOP_1": {
+        "filename": "Pin_Body_Medium_Studio_LOP_1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Body_Medium_Studio_LOP_2": {
+        "filename": "Pin_Body_Medium_Studio_LOP_2.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_High_Stage_1": {
+        "filename": "Pin_Head_High_Stage_1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_High_Stage_2": {
+        "filename": "Pin_Head_High_Stage_2.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_High_Stage_3": {
+        "filename": "Pin_Head_High_Stage_3.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_High_Stage_3_LOP": {
+        "filename": "Pin_Head_High_Stage_3_LOP.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_High_Stage_4": {
+        "filename": "Pin_Head_High_Stage_4.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_High_Stage_5": {
+        "filename": "Pin_Head_High_Stage_5.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_High_Stage_6": {
+        "filename": "Pin_Head_High_Stage_6.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_High_Studio_1": {
+        "filename": "Pin_Head_High_Studio_1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_High_Studio_2": {
+        "filename": "Pin_Head_High_Studio_2.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_High_Studio_3": {
+        "filename": "Pin_Head_High_Studio_3.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_High_Studio_4": {
+        "filename": "Pin_Head_High_Studio_4.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_Medium_Stage_1": {
+        "filename": "Pin_Head_Medium_Stage_1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_Medium_Stage_1_LOP": {
+        "filename": "Pin_Head_Medium_Stage_1_LOP.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_Medium_Stage_2": {
+        "filename": "Pin_Head_Medium_Stage_2.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_Medium_Stage_2_LOP": {
+        "filename": "Pin_Head_Medium_Stage_2_LOP.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_Medium_Stage_3": {
+        "filename": "Pin_Head_Medium_Stage_3.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_Medium_Stage_4": {
+        "filename": "Pin_Head_Medium_Stage_4.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_Medium_Stage_5": {
+        "filename": "Pin_Head_Medium_Stage_5.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_Medium_Stage_6": {
+        "filename": "Pin_Head_Medium_Stage_6.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_Medium_Studio_1": {
+        "filename": "Pin_Head_Medium_Studio_1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_Medium_Studio_1_LOP": {
+        "filename": "Pin_Head_Medium_Studio_1_LOP.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_Medium_Studio_2": {
+        "filename": "Pin_Head_Medium_Studio_2.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_Medium_Studio_2_LOP": {
+        "filename": "Pin_Head_Medium_Studio_2_LOP.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_Medium_Studio_3": {
+        "filename": "Pin_Head_Medium_Studio_3.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_Medium_Studio_4": {
+        "filename": "Pin_Head_Medium_Studio_4.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_Medium_Studio_5": {
+        "filename": "Pin_Head_Medium_Studio_5.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Head_Medium_Studio_6": {
+        "filename": "Pin_Head_Medium_Studio_6.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Hit_Single_01": {
+        "filename": "Pin_Hit_Single_01.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Hit_Single_02": {
+        "filename": "Pin_Hit_Single_02.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Hit_Single_03": {
+        "filename": "Pin_Hit_Single_03.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Hit_Single_04": {
+        "filename": "Pin_Hit_Single_04.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Hit_Single_05": {
+        "filename": "Pin_Hit_Single_05.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Hit_Single_06": {
+        "filename": "Pin_Hit_Single_06.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Hit_Single_07": {
+        "filename": "Pin_Hit_Single_07.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Hit_Single_08": {
+        "filename": "Pin_Hit_Single_08.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Hit_Single_09": {
+        "filename": "Pin_Hit_Single_09.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Hit_Single_10": {
+        "filename": "Pin_Hit_Single_10.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Hit_Single_11": {
+        "filename": "Pin_Hit_Single_11.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_Hit_Single_13": {
+        "filename": "Pin_Hit_Single_13.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pins_Body_Body_Medium_Stage01_050619_02": {
+        "filename": "Pins_Body_Body_Medium_Stage01_050619_02.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pins_Body_Body_Medium_Stage01_050619_04": {
+        "filename": "Pins_Body_Body_Medium_Stage01_050619_04.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pins_Body_Body_Medium_Stage01_050619_06": {
+        "filename": "Pins_Body_Body_Medium_Stage01_050619_06.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pins_Body_Body_Medium_Stage01_050619_07": {
+        "filename": "Pins_Body_Body_Medium_Stage01_050619_07.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pins_Body_Body_Medium_Stage01_050619_08": {
+        "filename": "Pins_Body_Body_Medium_Stage01_050619_08.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pins_Head_Body_High_Stage01_050619_01": {
+        "filename": "Pins_Head_Body_High_Stage01_050619_01.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pins_Head_Body_High_Stage01_050619_02": {
+        "filename": "Pins_Head_Body_High_Stage01_050619_02.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pins_Head_Body_High_Stage01_050619_03": {
+        "filename": "Pins_Head_Body_High_Stage01_050619_03.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pins_Head_Body_High_Stage01_050619_04": {
+        "filename": "Pins_Head_Body_High_Stage01_050619_04.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pins_Head_Body_High_Stage01_050619_07": {
+        "filename": "Pins_Head_Body_High_Stage01_050619_07.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pins_Head_Body_Low_Stage01_050619_02": {
+        "filename": "Pins_Head_Body_Low_Stage01_050619_02.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pins_Head_Body_Low_Stage01_050619_03": {
+        "filename": "Pins_Head_Body_Low_Stage01_050619_03.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pins_Head_Body_Low_Stage01_050619_04": {
+        "filename": "Pins_Head_Body_Low_Stage01_050619_04.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pins_Head_Body_Low_Stage01_050619_05": {
+        "filename": "Pins_Head_Body_Low_Stage01_050619_05.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Player_step_off": {
+        "filename": "Player_step_off.wav",
+        "gain": -6.0,
+        "loops": false
+    },
+    "Player_step_off_1": {
+        "filename": "Player_step_off_1.wav",
+        "gain": -6.0,
+        "loops": false
+    },
+    "Player_step_off_2": {
+        "filename": "Player_step_off_2.wav",
+        "gain": -6.0,
+        "loops": false
+    },
+    "Player_step_off_3": {
+        "filename": "Player_step_off_3.wav",
+        "gain": -6.0,
+        "loops": false
+    },
+    "Player_step_off_4": {
+        "filename": "Player_step_off_4.wav",
+        "gain": -6.0,
+        "loops": false
+    },
+    "Player_step_off_5": {
+        "filename": "Player_step_off_5.wav",
+        "gain": -6.0,
+        "loops": false
+    },
+    "Player_Step_On": {
+        "filename": "Player_Step_On.wav",
+        "gain": -6.0,
+        "loops": false
+    },
+    "Player_Step_On_C": {
+        "filename": "Player_Step_On_C.wav",
+        "gain": -6.0,
+        "loops": false
+    },
+    "Reset_Close": {
+        "filename": "Reset_Close.wav",
+        "gain": -20.0,
+        "loops": false
+    },
+    "Reset_Open": {
+        "filename": "Reset_Open.wav",
+        "gain": -20.0,
+        "loops": false
+    },
+    "Whoosh_Matt_1": {
+        "filename": "Whoosh_Matt_1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Whoosh_Matt_10": {
+        "filename": "Whoosh_Matt_10.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Whoosh_Matt_3": {
+        "filename": "Whoosh_Matt_3.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Whoosh_Matt_4_layered": {
+        "filename": "Whoosh_Matt_4_layered.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Whoosh_Matt_5_layered": {
+        "filename": "Whoosh_Matt_5_layered.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Whoosh_Matt_8": {
+        "filename": "Whoosh_Matt_8.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Whoosh_Matt_9_layered": {
+        "filename": "Whoosh_Matt_9_layered.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Woosh_1": {
+        "filename": "Woosh_1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Woosh_2": {
+        "filename": "Woosh_2.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Woosh_3": {
+        "filename": "Woosh_3.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Woosh_4": {
+        "filename": "Woosh_4.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Woosh_me_1": {
+        "filename": "Woosh_me_1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Woosh_me_2": {
+        "filename": "Woosh_me_2.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "ball_hit_ipad_v1": {
+        "filename": "ball_hit_ipad_v1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "ball_hit_ipad_v2": {
+        "filename": "ball_hit_ipad_v2.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "click_1": {
+        "filename": "click_1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "click_2": {
+        "filename": "click_2.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "click_3": {
+        "filename": "click_3.wav",
+        "gain": -1.0,
+        "loops": false
+    },
+    "countdown_complete_C_note": {
+        "filename": "countdown_complete_C_note.wav",
+        "gain": -1.0,
+        "loops": false
+    },
+    "countdown_complete_high_F": {
+        "filename": "countdown_complete_high_F.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "countdown_tuned_to_F": {
+        "filename": "countdown_tuned_to_F.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "pillar_glow_loop_01": {
+        "filename": "pillar_glow_loop_01.wav",
+        "gain": -10.0,
+        "loops": true
+    },
+    "pop_whack_C": {
+        "filename": "pop_whack_C.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "pop_whack_F": {
+        "filename": "pop_whack_F.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "reset_slide__slide_1": {
+        "filename": "reset_slide__slide_1.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "reset_slide__slide_2": {
+        "filename": "reset_slide__slide_2.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "wooden_whack_01": {
+        "filename": "wooden_whack_01.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "wooden_whack_02": {
+        "filename": "wooden_whack_02.wav",
+        "gain": 0.0,
+        "loops": false
+    },
+    "Pin_reset_animation_01": {
+        "filename": "Pin_reset_animation_01.wav",
+        "gain": -6.0,
+        "loops": false
+    },
+    "Pin_reset_animation_02": {
+        "filename": "Pin_reset_animation_02.wav",
+        "gain": -6.0,
+        "loops": false
+    },
+    "Player_Impact_Player_3": {
+        "filename": "Player_Impact_Player_3.wav",
+        "gain": 0.0,
+        "loops": false
+    }
+}
