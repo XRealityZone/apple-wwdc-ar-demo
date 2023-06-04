@@ -1,6 +1,6 @@
-# apple-ar-demo
+# apple-wwdc-ar-demo
 
-A collection of Apple AR sample code.
+A collection of Apple WWDC AR sample code .
 
 ## How to Start
 
